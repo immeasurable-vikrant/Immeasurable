@@ -1,7 +1,7 @@
 export const LEADERS = [
     {
       id: 0,
-      name: 'Peter Pan',
+      name: 'Free from of Addictions',
       image: '/assets/images/alberto.png',
       designation: 'Chief Epicurious Officer',
       abbr: 'CEO',
@@ -28,12 +28,12 @@ export const LEADERS = [
     },
     {
       id: 3,
-      name: 'Alberto Somayya',
+      name: 'Free from Addictions',
       image: '/assets/images/alberto.png',
-      designation: 'Executive Chef',
+      designation: 'Straight from the Master',
       abbr: 'EC',
       featured: true,
-      description: 'Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!'
+      description: 'This is not addiction treatment and I am not giving you any medical advice or substituting for medical care.This is a powerful RELAPSE PREVENTION course that will totally change and release your addictive patterns, cravings and beliefs about addiction'
     }
   ];
   

@@ -8,10 +8,9 @@ function Footer(props) {
                 <div className="col-4 offset-1 col-sm-2">
                     <h5>Links</h5>
                     <ul className="list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Menu</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/question">Question</a></li>
+                        <li><a href="/explore">Explore</a></li>
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">
@@ -39,7 +38,7 @@ function Footer(props) {
             </div>
             <div className="row justify-content-center">             
                 <div className="col-auto">
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+                    <p>© Copyright 2018 Immeasurable</p>
                 </div>
             </div>
         </div>

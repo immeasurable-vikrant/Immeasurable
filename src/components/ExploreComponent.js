@@ -1,17 +1,35 @@
 import React from 'react';
+import { Card, CardImg, CardBody, CardText, CardTitle,CardSubtitle } from 'reactstrap';
 
-function Explore(props) {
-
+function RenderCard({item}) {
     return(
-        <div className="conatiner">
-        <div className="row">
-        <div className="col-12 col-sm-6">
-        </div></div> <h2>Home.....
-            in Progress </h2></div>
+        <Card>
+            <CardImg src={item.image} alt= {item.name} />
+            <CardBody>
+                <CardTitle>{item.name}</CardTitle>
+                {item.designation ? <CardSubtitle>{item.designation}</CardSubtitle> : null}
+                <CardText>{item.description}</CardText>
+            </CardBody>
+        </Card>
     );
 }
-    
-        
-export default Explore; 
 
+function Explore(props) {
+    return(
+        <div classname="container">
+            <div className="row align-items-start">
+                <div className="col-12 col-md m-1">
+                    <RenderCard item={props.dish} />
+                </div>
+                <div className="col-12 col-md m-1">
+                    <RenderCard item={props.promotion} />
+                </div>
+                <div className="col-12 col-md m-1">
+                    <RenderCard item={props.leader} />
+                </div>
+            </div>
+        </div>
+    );
+}
 
+export default Explore;

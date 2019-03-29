@@ -8,6 +8,7 @@ import { DISHES } from '../shared/dishes';
 import { COMMENTS } from '../shared/comments';																																																																																																																																																																																																																																																																																																																																																			import { LEADERS } from '../shared/leaders';
 import { PROMOTIONS } from '../shared/promotions';
 import { Switch, Route, Redirect} from 'react-router-dom';
+import SignIn from '../authenticate/SignInComponent';
 
 
 class Main extends Component {
@@ -33,6 +34,7 @@ class Main extends Component {
     }
     return (
       <div>
+        <Route path="/signin" component={SignIn} />
         <Header />
           <Switch>
             <Route path="/home" component={HomePage} />

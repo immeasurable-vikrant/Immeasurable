@@ -12,26 +12,33 @@
 }
 
 .footer {
-    background-color: #D1C4E9;
+    background-color:#151313;
+    color: white;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
 
 .jumbotron {
-
-    padding: 120px 30px 120px 30px ;
-    margin: 0px auto ;
-    background: #3c3c3c;
-    color: floralwhite;
-
+    background-image: url("https://images.wallpaperscraft.com/image/starry_sky_stars_night_137739_1920x1080.jpg");
+    background-size: cover;
+    color: antiquewhite;
+    border-radius: 0%;
 }
+
+.btn-sub{
+    color: black;
+    background-color: #F1C40F;
+    
+}
+
 
 address{
     font-size: 80%;
     margin: 0px;
-    color: #0f0f0f;
+    color: #F8F1F0;
 
 }
+
 
 .navbar-dark {
     background-color: black;

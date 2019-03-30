@@ -1,51 +1,78 @@
 import React from 'react';
 import { Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button } from 'reactstrap';
+  CardTitle, CardSubtitle, Button } from 'reactstrap';
 
-function Home(props) {
+const Home = (props) => {
+  return (
+    <div className="conatiner">
+       <div className="row">
+          <div className="col-6 ">
+      <Card>
+      <CardImg top width="100%" src="https://wallpapercave.com/wp/wp3137137.jpg"/>
+      </Card>
+          </div>
 
-    return(
-        <div className="row">
-        <div className="row">
-        <div className="col-12 col-md-4">
-       
-        <Card className="float-right"> 
-          <CardImg top width="10%" src="https://images.unsplash.com/photo-1530847887473-36dbaf586122?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="Card image cap" />
-          <CardBody>
-            <CardTitle>Card title</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-            <Button>Button</Button>
-          </CardBody>
-        </Card>
-      
-        <Card className="float-right">
-          <CardImg top width="10%" src="https://gmsrp.cachefly.net/images/19/03/27/55976fbf08edf31763a95bd6246f3150/960.jpg" />
-          <CardBody>
-            <CardTitle>Card title</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-            <Button>Button</Button>
-          </CardBody>
-        </Card>
-     
-        <Card>
-          <CardImg top width="10%" src="https://usatftw.files.wordpress.com/2019/03/afp-afp_1er3c8.jpg?w=1000&h=600&crop=1"/>
-          <CardBody>
-            <CardTitle>Card title</CardTitle>
-            <CardSubtitle>Card subtitle</CardSubtitle>
-            <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-            <Button>Button</Button>
-          </CardBody>
-        </Card> 
+       <div className="col-3">
+      <Card>
+      <CardImg top width="100%" src="https://wallpapercave.com/wp/wp3137244.jpg"/>
+      </Card>
+          </div>
+
+          <div className="col-3">
+      <Card>
+      <CardImg top width="100%" src="https://wallpapercave.com/wp/wc3137263.jpg"/>
+      </Card>
+          </div>
+
+          <div className="col-3">
+      <Card>
+      <CardImg top width="100%" src="https://www.pixelstalk.net/wp-content/uploads/wallpapers/Messi-vs-El-Clasico-2017-Wallpaper-1-620x349.jpg"/>
+      </Card>
+          </div>
+
+          <div className="col-3">
+      <Card>
+      <CardImg top width="100%" src="https://www.pixelstalk.net/wp-content/uploads/wallpapers/Messi-vs-El-Clasico-2017-Wallpaper-4-620x465.jpg"/>
+      </Card>
+          </div>
         </div>
-        </div>
-      </div>
-       
-    );
-}
-    
+
+
+        <div className="row">
+        <div className="col-4">
         
-export default Home; 
+        <Card>
+        <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button color="warning">Preview</Button>
+        </CardBody>
+      </Card>
+      </div>
+        </div>
 
+        <div className="col-4">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button color="warning">Preview</Button>
+        </CardBody>
+      </Card>
+      
+        </div>
+    </div>   
+    
+    
+     
+ 
+ 
+  );
+};
 
+export default Home;

@@ -60,7 +60,7 @@ class Header extends Component {
                     <Jumbotron className="jumbotron">
                     <div className="container">    
                         <div className="row row-header">
-                            <div className="col-12 col-sm-6">
+                            <div className="col-12 col-sm-10">
                            <h1>Immeasurable</h1>
                             <p><h3>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</h3></p>
                                 <Button className="btn-sub">Subscribe Now</Button>

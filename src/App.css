@@ -23,7 +23,10 @@
     background-size: cover;
     color: antiquewhite;
     border-radius: 0%;
+
 }
+
+
 
 .btn-sub{
     color: black;
@@ -31,6 +34,9 @@
     
 }
 
+.card-body {
+    margin: 40px;
+}
 
 address{
     font-size: 80%;
@@ -43,5 +49,3 @@ address{
 .navbar-dark {
     background-color: black;
 }
-
-

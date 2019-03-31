@@ -7,15 +7,14 @@ function Learning(propss) {
     return( 
         
        
-
-
-        <Card >
-            <CardImg width="100%" src="../assets/alberto.png" alt="chacha" />
-                    <CardImgOverlay>
-                     <CardTitle >allah hu akbar</CardTitle>
-             </CardImgOverlay>
-        </Card>
-
+        <div className="container">
+        <div className="row">
+        <div className="col-12 col-md-10 offset-1">
+        <h3>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</h3>
+        <p>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</p>
+        </div>
+        </div>
+        </div>
     );
     
     }

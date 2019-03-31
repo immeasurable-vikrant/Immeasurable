@@ -45,7 +45,6 @@ const Home = (props) => {
 
         <div className="row">
           <div className="col-4">
-         asdfghjkl;'''''''''''''''''''''''''''''''''''''''''''llkkkk'
             <h4>Unlimited Access</h4>
             <p>Choose what you'd like to learn from 
             our extensive subscription Library.</p>
@@ -62,7 +61,7 @@ const Home = (props) => {
             <h4>Learn Anywhere</h4>
             <p>Switch between your copmputer, tablet or mobile device.</p>
           </div>
-          <Button color="warning" >Subscribe now</Button>
+          <Button className="chacha" color="warning">Subscribe now</Button>
           </div>
        
         

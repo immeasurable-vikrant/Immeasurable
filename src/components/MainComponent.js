@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
-import Question from './QuestionComponent';
-import Explore from './ExploreComponent';
+import Learning from './LearningComponent';
 import Footer from './FooterComponent';
 import { DISHES } from '../shared/dishes';
 import { COMMENTS } from '../shared/comments';																																																																																																																																																																																																																																																																																																																																																			import { LEADERS } from '../shared/leaders';
@@ -38,8 +37,7 @@ class Main extends Component {
         <Header />
           <Switch>
             <Route path="/home" component={HomePage} />
-            <Route exact path="/question" component= {() => <Question dishes={this.state.dishes} />} />
-            <Route exact path="/explore" component={Explore} />} />
+            <Route exact path="/Learning" component= {() => <Learning/>} />
             <Redirect to="/home" />
           </Switch>
         <Footer />

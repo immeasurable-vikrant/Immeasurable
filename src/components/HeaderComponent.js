@@ -25,7 +25,7 @@ class Header extends Component {
                         <NavbarToggler onClick={this.toggleNav} />
                <NavbarBrand className="mr-auto" href="/">
                <img src="assets/images/logo.png" height="30" width="41"
-               alt="Ristorante Con Fusion"/>
+               alt="Immeasurable"/>
                   </NavbarBrand>
                   <Collapse isOpen={this.state.isNavOpen} navbar>
                     <Nav navbar>
@@ -36,21 +36,14 @@ class Header extends Component {
                         </NavItem>
                
                     <NavItem>
-                            <NavLink className="nav-link"to="/aboutus">
-                                <span className= "fa fa-info fa-lg"></span>Q&A
-                            </NavLink>
-                        </NavItem>
-                        
-                        <NavItem>
-                            <NavLink className="nav-link"to="/contactus">
-                            <span className= "fa fa-address-card fa-lg"></span>Explore
-
+                            <NavLink className="nav-link"to="/learning">
+                                <span className= "fa fa-info fa-lg"></span>The Learning
                             </NavLink>
                         </NavItem>
                         </Nav>
 
                         <NavItem>
-                        <Button className="btn" onClick={this.open}>Login</Button>
+                        <Button  onClick={this.open}>Login</Button>
                        
                         </NavItem>
 

@@ -45,6 +45,7 @@ const Home = (props) => {
 
         <div className="row">
           <div className="col-4">
+         asdfghjkl;'''''''''''''''''''''''''''''''''''''''''''llkkkk'
             <h4>Unlimited Access</h4>
             <p>Choose what you'd like to learn from 
             our extensive subscription Library.</p>
@@ -68,7 +69,7 @@ const Home = (props) => {
 
 
         <div className="row">
-        <div className="col-6 col-md-6">
+        <div className="col-3 col-md-3">
         
         <Card>
         <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg" />
@@ -80,9 +81,9 @@ const Home = (props) => {
         </CardBody>
       </Card>
       </div>
-        </div>
-        <div className="row">
-        <div className="col-6 col-md-6">
+        
+      
+        <div className="col-3 col-md-3">
         
         <Card>
         <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
@@ -94,8 +95,87 @@ const Home = (props) => {
         </CardBody>
       </Card>
       </div>
+
+      <div className="col-3 col-md-3">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button color="warning">Preview</Button>
+        </CardBody>
+      </Card>
+      </div>
+
+      <div className="col-3 col-md-3">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button color="warning">Preview</Button>
+        </CardBody>
+      </Card>
+      </div>
+      <div className="col-3 col-md-3">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button color="warning">Preview</Button>
+        </CardBody>
+      </Card>
+      </div>
+
+      <div className="col-3 col-md-3">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button color="warning">Preview</Button>
+        </CardBody>
+      </Card>
+      </div>
+
+      <div className="col-3 col-md-3">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button color="warning">Preview</Button>
+        </CardBody>
+      </Card>
+      </div>
+      
+      <div className="col-3 col-md-3">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Card title</CardTitle>
+          <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button color="warning">Preview</Button>
+        </CardBody>
+      </Card>
+      </div>
+
+      </div>
         </div>
-    </div>   
+     
     
     
      

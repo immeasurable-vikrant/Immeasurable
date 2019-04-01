@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody,
+import { Card, CardImg, CardBody,
   CardTitle, CardSubtitle, Button } from 'reactstrap';
 
 const Home = (props) => {
@@ -45,12 +45,14 @@ const Home = (props) => {
 
         <div className="row">
           <div className="col-4">
+          <i className="fa fa-infinity fa-lg "></i>
             <h4>Unlimited Access</h4>
             <p>Choose what you'd like to learn from 
             our extensive subscription Library.</p>
             </div>
       
         <div className="col-4">
+        <i className="fa fa-chalkboard-teacher fa-lg"></i>
             <h4>Expert Masters</h4>
             <p>Learn from industry experts who are 
               passionate about Teaching.
@@ -58,6 +60,7 @@ const Home = (props) => {
           </div>
 
           <div className="col-4">
+          <i className="fa fa-desktop fa-lg"></i>
             <h4>Learn Anywhere</h4>
             <p>Switch between your copmputer, tablet or mobile device.</p>
           </div>
@@ -73,9 +76,9 @@ const Home = (props) => {
         <Card>
         <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <CardTitle>Conquering the Mind</CardTitle>
+          <CardSubtitle>by Swami Mukundananda</CardSubtitle>
+        
           <Button color="warning">Preview</Button>
         </CardBody>
       </Card>
@@ -87,9 +90,9 @@ const Home = (props) => {
         <Card>
         <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <CardTitle>Unwavering Focus and Conecentration</CardTitle>
+          <CardSubtitle>by Sadhguru</CardSubtitle>
+        
           <Button color="warning">Preview</Button>
         </CardBody>
       </Card>
@@ -100,9 +103,9 @@ const Home = (props) => {
         <Card>
         <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <CardTitle>Overcoming Comfort Zone</CardTitle>
+          <CardSubtitle>by Sandeep Maheshwari </CardSubtitle>
+
           <Button color="warning">Preview</Button>
         </CardBody>
       </Card>
@@ -113,10 +116,9 @@ const Home = (props) => {
         <Card>
         <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
+          <CardTitle>End of Addictions</CardTitle>
           <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button color="warning">Preview</Button>
+         
         </CardBody>
       </Card>
       </div>
@@ -125,22 +127,9 @@ const Home = (props) => {
         <Card>
         <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button color="warning">Preview</Button>
-        </CardBody>
-      </Card>
-      </div>
-
-      <div className="col-3 col-md-3">
-        
-        <Card>
-        <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
-        <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <CardTitle>Mindfulness</CardTitle>
+          <CardSubtitle>by Pema Chodron </CardSubtitle>
+          
           <Button color="warning">Preview</Button>
         </CardBody>
       </Card>
@@ -151,9 +140,22 @@ const Home = (props) => {
         <Card>
         <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <CardTitle>Boost Confidence </CardTitle>
+          <CardSubtitle>by Sandeep Maheshwari</CardSubtitle>
+         
+          <Button color="warning">Preview</Button>
+        </CardBody>
+      </Card>
+      </div>
+
+      <div className="col-3 col-md-3">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
+        <CardBody>
+          <CardTitle>Science of getting Rich </CardTitle>
+          <CardSubtitle>by Napolean Hill</CardSubtitle>
+          
           <Button color="warning">Preview</Button>
         </CardBody>
       </Card>
@@ -164,9 +166,9 @@ const Home = (props) => {
         <Card>
         <CardImg top width="100%" src="https://images2.alphacoders.com/144/thumb-1920-144270.jpg" alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <CardTitle>Mastery Over Health</CardTitle>
+          <CardSubtitle>by Bruce Lee</CardSubtitle>
+          
           <Button color="warning">Preview</Button>
         </CardBody>
       </Card>
@@ -174,9 +176,6 @@ const Home = (props) => {
 
       </div>
         </div>
-     
-    
-    
      
  
  

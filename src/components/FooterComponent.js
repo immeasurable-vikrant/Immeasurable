@@ -19,10 +19,10 @@ function Footer(props) {
 		              121, Clear Water Bay Road<br />
 		              Clear Water Bay, Kowloon<br />
 		              HONG KONG<br />
-		              <i className="fa fa-phone fa-lg"></i>: +852 1234 5678<br />
+		              <i className="fa fa-phone fa-lg"></i>: +91-9086-123-007<br />
 		              <i className="fa fa-fax fa-lg"></i>: +852 8765 4321<br />
 		              <i className="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">
-                         confusion@food.net</a>
+                        vikrantsingh.3151996@gmailcom</a>
                     </address>
                 </div>
                 <div className="col-12 col-sm-4 align-self-center">

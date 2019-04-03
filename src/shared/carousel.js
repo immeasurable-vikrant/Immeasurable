@@ -93,4 +93,4 @@ class Carousel extends Component {
 }
 
 
-export default Example;
+export default Carousel;

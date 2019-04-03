@@ -1,3 +1,5 @@
+.navbar-header
+
 .row-header {
     margin: 0px auto;
     padding: 0px auto;
@@ -20,16 +22,14 @@
 
 
 .jumbotron {
-    background-image: url("https://images.wallpaperscraft.com/image/starry_sky_stars_night_137739_1920x1080.jpg");
+    background-image: url("https://images.alphacoders.com/285/thumb-1920-285951.jpg");
     background-size: cover;
     color: antiquewhite;
     border-radius: 0%;
 
 }
 
-.card {
-    margin: 25px;
-}
+
 
 .btn-sub{
     color: black;
@@ -37,9 +37,21 @@
     
 }
 
-.card-body {
-    margin: 40px;
+.btn-chacha {
+    color: black;
 }
+.chacha {
+    
+    margin: 30px;
+    padding: 40px;
+ } 
+
+ .row-card {
+   
+     margin: 30px;
+     padding: 40px;
+ }
+
 
 address{
     font-size: 80%;
@@ -52,3 +64,5 @@ address{
 .navbar-dark {
     background-color: black;
 }
+
+    

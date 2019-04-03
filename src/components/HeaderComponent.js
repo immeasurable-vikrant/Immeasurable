@@ -24,20 +24,19 @@ class Header extends Component {
                    <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
                <NavbarBrand className="mr-auto" href="/">
-               <img src="assets/images/logo.png" height="30" width="41"
-               alt="Immeasurable"/>
+             Immeasurable
                   </NavbarBrand>
                   <Collapse isOpen={this.state.isNavOpen} navbar>
                     <Nav navbar>
                         <NavItem>
                             <NavLink className="nav-link"to="/home">
-                                <span className= "fa fa-home fa-lg"></span>Home
+                            Home
                             </NavLink>
                         </NavItem>
                
                     <NavItem>
                             <NavLink className="nav-link"to="/learning">
-                                <span className= "fa fa-info fa-lg"></span>The Learning
+                                The Learning
                             </NavLink>
                         </NavItem>
                         </Nav>

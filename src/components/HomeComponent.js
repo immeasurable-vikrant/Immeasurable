@@ -8,47 +8,102 @@ import { Card, CardImg, CardBody,CardImgOverlay,
       
         <div className="row">
            <div className="col-6">
+          <div className="box text-center">
+          
            <Card>
                <CardImg top width="100%" src="https://wallpapercave.com/wp/wp3137137.jpg"/>
                  <CardImgOverlay>
-                    <CardText className="text-center">
+                   <div className="box-content">
+                   <ul className="icon">
+                      <li><a href="#"><i className="fa fa-play-circle"></i></a></li>
+                   </ul>
+                   <CardText className="text-center">
                    End of Addictions and Habits 
                     </CardText>   
+                   </div>  
                  </CardImgOverlay>
                </Card>
+               </div>
             </div>
   
          <div className="col-6">
            <div className="row">
              <div className="col-6">
-               <Card>
-               <CardImg top width="100%" src="https://wallpapercave.com/wp/wp3137137.jpg"/>
-                 <CardImgOverlay>
-                    <CardText className="text-center">
-                   Focus and Concentration
-                    </CardText>   
-                 </CardImgOverlay>
-               </Card>
+             <div className="box text-center">
+          
+          <Card>
+              <CardImg top width="100%" src="https://www.pixelstalk.net/wp-content/uploads/2015/11/HD-Lionel-Messi-Wallpapers.jpg"/>
+                <CardImgOverlay>
+                  <div className="box-content">
+                  <ul className="icon">
+                     <li><a href="#"><i className="fa fa-play-circle"></i></a></li>
+                  </ul>
+                  <CardText className="text-center">
+                  End of Addictions 
+                   </CardText>   
+                  </div>  
+                </CardImgOverlay>
+              </Card>
+              </div>
              </div>
   
           <div className="col-6">
-             <Card>
-              <CardImg top width="100%" src="https://wallpapercave.com/wp/wc3137263.jpg"/>
-            </Card>
+          <div className="box text-center">
+          
+          <Card>
+              <CardImg top width="100%" src="https://mirrorherald.com/wp-content/uploads/2018/11/neymar.jpg"/>
+                <CardImgOverlay>
+                  <div className="box-content">
+                  <ul className="icon">
+                     <li><a href="#"><i className="fa fa-play-circle"></i></a></li>
+                  </ul>
+                  <CardText className="text-center">
+                  End of Addictions  
+                   </CardText>   
+                  </div>  
+                </CardImgOverlay>
+              </Card>
+              </div>
           </div>
         </div>
   
          <div className="row">
            <div className="col-6">
-             <Card>
-               <CardImg top width="100%" src="https://images5.alphacoders.com/521/521476.jpg"/>
-             </Card>
+           <div className="box text-center">
+          
+          <Card>
+              <CardImg top width="100%" src="https://e0.365dm.com/18/04/768x432/skysports-fernando-torres-atletico-madrid_4279216.jpg?20180410180940"/>
+                <CardImgOverlay>
+                  <div className="box-content">
+                  <ul className="icon">
+                     <li><a href="#"><i className="fa fa-play-circle"></i></a></li>
+                  </ul>
+                  <CardText className="text-center">
+                  End of Addictions 
+                   </CardText>   
+                  </div>  
+                </CardImgOverlay>
+              </Card>
+              </div>
          </div>
   
             <div className="col-6">
-              <Card>
-                <CardImg top width="100%" src="https://images.beinsports.com/JYxeyUJG3LbfIwjj35Ez6b8D9W4=/full-fit-in/1000x0/sergioramos-cropped_4e4gspstj1jy1y00ecgzg5hab.jpg"/>
-             </Card>
+            <div className="box text-center">
+          
+          <Card>
+              <CardImg top width="100%" src="https://e1.365dm.com/17/10/768x432/skysports-kaka-ac-milan-brazil_4125796.jpg?20171011171120"/>
+                <CardImgOverlay>
+                  <div className="box-content">
+                  <ul className="icon">
+                     <li><a href="#"><i className="fa fa-play-circle"></i></a></li>
+                  </ul>
+                  <CardText className="text-center">
+                  End of Addictions 
+                   </CardText>   
+                  </div>  
+                </CardImgOverlay>
+              </Card>
+              </div>
             </div>
          </div>
            </div>

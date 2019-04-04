@@ -28,12 +28,29 @@
     border-radius: 0%;
 
 }
+.row-context {
+    background-image: url("https://images.pexels.com/photos/1379115/pexels-photo-1379115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
 
+.zoom:hover {
+    transform: scale(0.5);
+}
+
+.card-text {
+        
+    padding: 40px;
+    color: blue;    
+    font-size: 40px;
+    font-weight: 700;
+
+
+}
 
 
 .btn-sub{
     color: black;
     background-color: #F1C40F;
+
     
 }
 

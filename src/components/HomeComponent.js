@@ -1,22 +1,33 @@
 import React from 'react';
-import { Card, CardImg, CardBody,
-  CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Card, CardImg, CardBody,CardImgOverlay,
+  CardTitle, CardSubtitle,CardText, Button } from 'reactstrap';
   
   const Home = (props) => {
     return (
       <div className="conatiner">
+      
         <div className="row">
            <div className="col-6">
-             <Card>
+           <Card>
                <CardImg top width="100%" src="https://wallpapercave.com/wp/wp3137137.jpg"/>
-             </Card>
-           </div>
+                 <CardImgOverlay>
+                    <CardText className="text-center">
+                   End of Addictions and Habits 
+                    </CardText>   
+                 </CardImgOverlay>
+               </Card>
+            </div>
   
          <div className="col-6">
            <div className="row">
              <div className="col-6">
                <Card>
-                 <CardImg top width="100%" src="https://wallpapercave.com/wp/wp3137244.jpg"/>
+               <CardImg top width="100%" src="https://wallpapercave.com/wp/wp3137137.jpg"/>
+                 <CardImgOverlay>
+                    <CardText className="text-center">
+                   Focus and Concentration
+                    </CardText>   
+                 </CardImgOverlay>
                </Card>
              </div>
   
@@ -36,7 +47,7 @@ import { Card, CardImg, CardBody,
   
             <div className="col-6">
               <Card>
-                <CardImg top width="100%" src="https://e00-marca.uecdn.es/imagenes/2015/01/22/en/football/barcelona/1421932390_extras_noticia_foton_7_0.jpg"/>
+                <CardImg top width="100%" src="https://images.beinsports.com/JYxeyUJG3LbfIwjj35Ez6b8D9W4=/full-fit-in/1000x0/sergioramos-cropped_4e4gspstj1jy1y00ecgzg5hab.jpg"/>
              </Card>
             </div>
          </div>
@@ -75,10 +86,13 @@ import { Card, CardImg, CardBody,
           <div className="col-3 col-md-3 ">
           
           <Card >
-          <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg" />
-          <CardBody>
+          <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg"/>  
+          <CardBody className="text-left">
             <CardTitle>Conquering the Mind by Understanding</CardTitle>
             <CardSubtitle>by Swami Mukundananda</CardSubtitle>
+            <CardText>
+            <small className="text-muted">.2h 11m </small>
+          </CardText>
           </CardBody>
         </Card>
         </div>
@@ -88,9 +102,12 @@ import { Card, CardImg, CardBody,
           
           <Card>
           <CardImg top width="100%" src="https://media.newyorker.com/photos/590952851c7a8e33fb38a898/master/pass/Brando-580.jpg" alt="Card image cap" />
-          <CardBody>
+          <CardBody className="text-center">
             <CardTitle>Unwavering Focus and Conecentration</CardTitle>
             <CardSubtitle>by Sadhguru</CardSubtitle>
+            <CardText>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </CardText>
           </CardBody>
         </Card>
         </div>
@@ -102,6 +119,9 @@ import { Card, CardImg, CardBody,
           <CardBody>
             <CardTitle>Overcoming Comfort Zone</CardTitle>
             <CardSubtitle>by Sandeep Maheshwari </CardSubtitle>
+            <CardText>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </CardText>
           </CardBody>
         </Card>
         </div>
@@ -113,7 +133,9 @@ import { Card, CardImg, CardBody,
           <CardBody>
             <CardTitle>End of Addictions and Habits</CardTitle>
             <CardSubtitle>by Jiddu Krishnamurti</CardSubtitle>
-           
+            <CardText>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </CardText>
           </CardBody>
         </Card>
         </div>
@@ -124,6 +146,9 @@ import { Card, CardImg, CardBody,
           <CardBody>
             <CardTitle>Mindfulness</CardTitle>
             <CardSubtitle>by Pema Chodron </CardSubtitle>
+            <CardText>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </CardText>
           </CardBody>
         </Card>
         </div>
@@ -135,6 +160,9 @@ import { Card, CardImg, CardBody,
           <CardBody>
             <CardTitle>Boost Confidence </CardTitle>
             <CardSubtitle>by Sandeep Maheshwari</CardSubtitle>
+            <CardText>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </CardText>
           </CardBody>
         </Card>
         </div>
@@ -146,6 +174,9 @@ import { Card, CardImg, CardBody,
           <CardBody>
             <CardTitle>Science of getting Rich </CardTitle>
             <CardSubtitle>by Napolean Hill</CardSubtitle>
+            <CardText>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </CardText>
           </CardBody>
         </Card>
         </div>
@@ -157,13 +188,16 @@ import { Card, CardImg, CardBody,
           <CardBody>
             <CardTitle>Mastery Over Health</CardTitle>
             <CardSubtitle>by Bruce Lee</CardSubtitle>
+            <CardText>
+            <small className="text-muted">Last updated 3 mins ago</small>
+          </CardText>
           </CardBody>
           
         </Card>
       
         </div>
   
-        
+
         </div>
         
     </div>

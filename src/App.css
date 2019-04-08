@@ -39,10 +39,10 @@
 .card-text {
         
     padding: 40px;
-    color: blue;    
-    font-size: 40px;
+    
+    color: whitesmoke;    
+    font-size: 20px;
     font-weight: 700;
-
 
 }
 
@@ -57,7 +57,8 @@
 .btn-chacha {
     color: black;
 }
-.chacha {
+
+.row-icon{
     
     margin: 30px;
     padding: 40px;
@@ -74,7 +75,7 @@
 
  .box:hover .box-content {
 
-    background-color: rgba(112,123,124,.7);
+    background-color: rgba(33, 47, 61, .8);
  }
 
 

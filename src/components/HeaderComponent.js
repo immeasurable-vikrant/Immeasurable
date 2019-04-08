@@ -41,10 +41,7 @@ class Header extends Component {
                         </NavItem>
                         </Nav>
 
-                        <NavItem>
-                        <Button  onClick={this.open}>Login</Button>
-                       
-                        </NavItem>
+                        
 
                             </Collapse>
                     </div>

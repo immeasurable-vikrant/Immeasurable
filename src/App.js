@@ -4,6 +4,7 @@ import './App.css';
 import { BrowserRouter } from 'react-router-dom';
 import SignIn from './authenticate/SignInComponent';
 
+
 class App extends Component {
 
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
    <BrowserRouter>
     <div>
       <Main />
+      
     </div>
     </BrowserRouter>
     );

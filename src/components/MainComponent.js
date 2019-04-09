@@ -7,14 +7,8 @@ import { Switch, Route, Redirect} from 'react-router-dom';
 import SignIn from '../authenticate/SignInComponent';
 
 
-class Main extends Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-        
-    };
-  }
+class Main extends Component {
 
   render() {
 

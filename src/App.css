@@ -28,22 +28,28 @@
     border-radius: 0%;
 
 }
+
+.row-card {
+    border: ridge;
+    padding: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  
+}
+
+.row-box {
+    border: ridge;
+ 
+}
+
+
 .row-context {
     background-image: url("https://images.pexels.com/photos/1379115/pexels-photo-1379115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
 }
 
 .zoom:hover {
     transform: scale(0.5);
-}
-
-.card-text {
-        
-    padding: 40px;
-    
-    color: whitesmoke;    
-    font-size: 20px;
-    font-weight: 700;
-
 }
 
 

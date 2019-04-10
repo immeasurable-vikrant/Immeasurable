@@ -6,11 +6,17 @@
 }
 
 .row-content {
-    margin: 0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height: 400px;
+    margin-top: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px 0px 20px 0px;
 
+}
+
+.row-col{
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center; 
 }
 
 .footer {
@@ -29,19 +35,6 @@
 
 }
 
-.row-card {
-    border: ridge;
-    padding: 30px;
-    margin-bottom: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
-  
-}
-
-.row-box {
-    border: ridge;
- 
-}
 
 
 .row-context {
@@ -60,10 +53,12 @@
     
 }
 
-.btn-chacha {
-    color: black;
+.box .card {
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: yellow;
 }
-
 .row-icon{
     
     margin: 30px;

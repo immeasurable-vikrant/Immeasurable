@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './HeaderComponent';
 import Home from './HomeComponent';
+import { COURSES } from '../shared/courses';
 import Learning from './LearningComponent';
 import Footer from './FooterComponent';
 import { Switch, Route, Redirect} from 'react-router-dom';
@@ -10,6 +11,15 @@ import SignIn from '../authenticate/SignInComponent';
 
 class Main extends Component {
 
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      courses : COURSES
+    }
+    
+  }
+
   render() {
 
     return (
@@ -17,7 +27,7 @@ class Main extends Component {
         <Route path="/signin" component={SignIn} />
         <Header />
           <Switch>
-            <Route path="/home" component={Home} />
+            <Home courses = {this.state.courses} />
             <Route exact path="/Learning" component= {() => <Learning/>} />
             <Redirect to="/home" />
           </Switch>

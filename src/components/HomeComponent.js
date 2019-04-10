@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardImgOverlay,Button } from 'reactstrap';
+import { Card, CardImg, CardText, CardImgOverlay,CardBody, CardSubtitle,CardTitle, Button } from 'reactstrap';
 import Learning from './LearningComponent';
 
 class Home extends Component {
@@ -120,7 +120,93 @@ renderCourse(course) {
           </div>
           <h3 className="text-center">Browse our top courses</h3>
           
+          <div className="row row-card">
+        <div className="col-3 col-md-3 offset-1">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg"/>  
+        <CardBody className="text-left">
+          <CardTitle>Conquering the Mind by Understanding</CardTitle>
+          <CardSubtitle>by Swami Mukundananda</CardSubtitle>
+          <CardText>
+          <small className="text-muted">.2h 11m </small>
+        </CardText>
+        </CardBody>
+      </Card>
+      </div>
+
+      <div className="col-3 col-md-3 ">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg"/>  
+        <CardBody className="text-left">
+          <CardTitle>Conquering the Mind by Understanding</CardTitle>
+          <CardSubtitle>by Swami Mukundananda</CardSubtitle>
+          <CardText>
+          <small className="text-muted">.2h 11m </small>
+        </CardText>
+        </CardBody>
+      </Card>
+      </div>
+
+      <div className="col-3 col-md-3 ">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg"/>  
+        <CardBody className="text-left">
+          <CardTitle>Conquering the Mind by Understanding</CardTitle>
+          <CardSubtitle>by Swami Mukundananda</CardSubtitle>
+          <CardText>
+          <small className="text-muted">.2h 11m </small>
+        </CardText>
+        </CardBody>
+      </Card>
+      </div>
+
+      <div className="col-3 col-md-3 offset-1">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg"/>  
+        <CardBody className="text-left">
+          <CardTitle>Conquering the Mind by Understanding</CardTitle>
+          <CardSubtitle>by Swami Mukundananda</CardSubtitle>
+          <CardText>
+          <small className="text-muted">.2h 11m </small>
+        </CardText>
+        </CardBody>
+      </Card>
+      </div>
+
+      <div className="col-3 col-md-3 ">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg"/>  
+        <CardBody className="text-left">
+          <CardTitle>Conquering the Mind by Understanding</CardTitle>
+          <CardSubtitle>by Swami Mukundananda</CardSubtitle>
+          <CardText>
+          <small className="text-muted">.2h 11m </small>
+        </CardText>
+        </CardBody>
+      </Card>
+      </div>
+
+      <div className="col-3 col-md-3 ">
+        
+        <Card>
+        <CardImg top width="100%" src="https://images7.alphacoders.com/770/thumb-350-770680.jpg"/>  
+        <CardBody className="text-left">
+          <CardTitle>Conquering the Mind by Understanding</CardTitle>
+          <CardSubtitle>by Swami Mukundananda</CardSubtitle>
+          <CardText>
+          <small className="text-muted">.2h 11m </small>
+        </CardText>
+        </CardBody>
+      </Card>
+      </div>
         </div>
+
+            </div>
      
     );
   }

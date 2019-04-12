@@ -1,3 +1,4 @@
+
 .navbar-header
 
 .row-header {
@@ -13,15 +14,10 @@
 
 }
 
-.row-col{
-    margin-top: 0px;
-    padding: 20px;
-    text-align: center; 
-}
 
 .footer {
     background-color:#151313;
-    color: white;
+    color: wheat;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -34,7 +30,14 @@
     border-radius: 0%;
 
 }
-
+.text-card{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    color: #151313;
+    font-size: 100%;
+    background-color: wheat;
+}
 
 
 .row-context {

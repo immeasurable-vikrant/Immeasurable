@@ -1,4 +1,4 @@
-export const COURSES1 =  [
+export const COURSES2 =  [
     {
       id: 0,
       name:'Art of Mind Management',

@@ -24,7 +24,7 @@ class Header extends Component {
                    <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
                <NavbarBrand className="mr-auto" href="/">
-             Immeasurable
+             Immeasurable <sup>©</sup>
                   </NavbarBrand>
                   <Collapse isOpen={this.state.isNavOpen} navbar>
                     <Nav navbar>
@@ -34,17 +34,24 @@ class Header extends Component {
                             </NavLink>
                         </NavItem>
                
-                    <NavItem>
+                        <NavItem>
                             <NavLink className="nav-link"to="/learning">
                                 The Learning
+                            </NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className="nav-link"to="/coursera">
+                               Coursera
                             </NavLink>
                         </NavItem>
                         </Nav>
 
                         
-
+                        
                             </Collapse>
+                            <Button className="btn-mod">Login</Button> 
                     </div>
+                   
                 </Navbar>
                     <Jumbotron className="jumbotron">
                     <div className="container">    

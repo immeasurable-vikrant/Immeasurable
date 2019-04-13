@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardImgOverlay,CardBody, CardSubtitle,CardTitle, Button } from 'reactstrap';
-import Coursera from './CourseraComponent';
+
+
 
 
 
@@ -10,7 +11,7 @@ class Home extends Component {
 
     this.state = {
       
-      selectedCourse : null
+      activeIndex :0
     }
 }
   
@@ -42,7 +43,7 @@ class Home extends Component {
         
       );
     })
-    const cours = this.props.courses1.map((course1) => {
+    const cours1 = this.props.courses1.map((course1) => {
       return(
         <div key ={course1.id } className="col-12 col-md-3 ">
            <Card className="text-card">
@@ -55,14 +56,15 @@ class Home extends Component {
            </div>
       );
     })
-      
+
+    
     return(
       <div className="conatiner">
         <div className="row row-content">
           <div className=" col-12 col-md-6">
            <div className="box text-center">
             <Card >
-              <CardImg src="https://www.ancient-origins.net/sites/default/files/field/image/Remains-of-Buddha-Found.jpg" />
+              <CardImg src="assets/images/conqueringthemind.jpg" />
                 <CardImgOverlay>
 		              <div className="box-content">
 		                <ul className="icon">
@@ -85,7 +87,7 @@ class Home extends Component {
              </div>
           </div>  
           <div className="row row-col m-4">
-            <div className="col-12 col-md-3  text-center">
+            <div className="col-12 col-md-3 text-center">
             <i className="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>
              <h4>Expert Masters</h4>
              <p>Learn from industry experts who are 
@@ -112,18 +114,18 @@ class Home extends Component {
           </div>
           <h3 className="text-center">Browse our top courses</h3>
           <div className="row">
-          {cours}
+          {cours1}
           </div>
-          
-
-            </div>
+          </div>
+            
+           
      
     );
+    
   }
 
-  
-  
 
+  
 }
 
 export default Home;

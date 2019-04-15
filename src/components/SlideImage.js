@@ -2,41 +2,34 @@ import React, { Component } from 'react';
 import { Carousel, CarouselItem, CarouselControl, CarouselIndicators,CarouselCaption } from 'reactstrap';
 
 
+const items = [
+    {
+        src: "assets/images/conqueringthemind.jpg",
+        altText: 'Slide 1',
+        caption : 'Slide 1'
+    },
+
+    {
+        src: "assets/images/conqueringthemind.jpg",
+        altText: 'Slide 2',
+        caption : 'Slide 2'
+    },
+
+    {
+        src: "assets/images/conqueringthemind.jpg",
+        altText: 'Slide 2',
+        caption : 'Slide 2'
+    },
+];
+
+
 class SlideImage extends Component {
     constructor(props) {
         super(props); 
-       
-        this.next = this.next.bind(this);
-        this.previous = this.previous.bind(this);
-        this.goToIndex = this.goToIndex.bind(this);
-        this.onExisting = this.onExisting.bind(this);
-        this.onExisted = this.onExisted.bind(this);
+     
+     
     }
 
-    onExisting() {
-        this.animating = true;
-    }
-
-    onExisted() {
-        this.animating =false;
-    }
-
-    next() {
-        if(this.animating) return;
-        const nextIndex =this.props.activeIndex === ITEMS.length - 1 ? 0 :this.props.activeIndex + 1;
-        this.setState({ activeIndex: nextIndex });
-    }
-
-    previous() {
-        if(this.animating) return;
-        const nextIndex =this.props.activeIndex === 0 ? items.length -1 : this.props.activeIndex -1 ;
-        this.setState({ activeIndex: nextIndex });
-    }
-
-    goToIndex(newIndex) {
-        if(this.animating) return;
-        this.setState({ activeIndex: newIndex});
-    }
 
     render() {
 

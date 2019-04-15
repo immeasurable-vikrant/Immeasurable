@@ -1,4 +1,4 @@
-export const ITEMS = [
+export const items = [
     {
         src: "assets/images/conqueringthemind.jpg",
         altText: 'Slide 1',

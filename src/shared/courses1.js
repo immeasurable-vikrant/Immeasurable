@@ -31,18 +31,18 @@ export const COURSES1 =  [
    {
       id: 5,
       name:'Overcoming Comfort Zone',
-      image: 'assets/images/swades6.jpg',
+      image: 'assets/images/swades5.jpg',
       description: 'Choose what you would like to learn from our extensive subscription library'
     },
     {
       id: 6,
       name:' End of Procrastination',
-      image: 'assets/images/swades7.jpg',
+      image: 'assets/images/swades6.jpg',
       description: 'Choose what you would like to learn from our extensive subscription library'
      },
      {
       id: 7,
       name:'Boost Your Confidence',
-      image: 'assets/images/swades8.jpg',
+      image: 'assets/images/swades7.jpg',
      }
   ]

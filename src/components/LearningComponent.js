@@ -3,7 +3,15 @@ import {TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle,Card
 import classnames from 'classnames';
 
 export default class Learning extends React.Component {
-   
+
+
+    toggle(tab) {
+        if (this.props.activeTab !== tab ) {
+            this.setState({
+              activeTab: tab
+            });
+        }
+    }
 
     render(){
         return(

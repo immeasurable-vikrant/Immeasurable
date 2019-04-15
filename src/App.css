@@ -35,12 +35,13 @@
 
 }
 .text-card{
+    
     margin-left: 20px;
     margin-right: 20px;
     padding: 0px;
     color: #151313;
     font-size: 100%;
-    background-color: wheat;
+    
 }
 
 
@@ -58,6 +59,11 @@
     background-color: #F1C40F;
 
     
+}
+
+.modal-login {
+ color: #151313;
+ background-color: #F1C40F;
 }
 
 .box .card {

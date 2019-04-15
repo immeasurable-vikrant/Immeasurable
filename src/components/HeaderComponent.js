@@ -1,15 +1,21 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand,Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
+import ModalLogin from '../shared/modals';
 
 class Header extends Component {
     constructor(props){
         super(props);
         this.state= {
-       isNavOpen: false
+       isNavOpen: false,
+   
+
+       
         };
         this.toggleNav= this.toggleNav.bind(this);
+       
     }
+
 
     toggleNav() {
         this.setState({
@@ -49,7 +55,8 @@ class Header extends Component {
                         
                         
                             </Collapse>
-                            <Button className="btn-mod">Login</Button> 
+                          
+                            <ModalLogin />
                     </div>
                    
                 </Navbar>

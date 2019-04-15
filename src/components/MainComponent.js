@@ -26,7 +26,7 @@ class Main extends Component {
       courses : COURSES,
       courses1 : COURSES1,
       courses2 : COURSES2,
-      activeTab: '1',
+     
     
        
     }

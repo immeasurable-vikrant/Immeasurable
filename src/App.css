@@ -1,14 +1,3 @@
-.btn-mod {
-    background-color: blue;
-    color: white;
-}
-
-
-
-.row-header {
-    margin: 0px auto;
-    padding: 0px auto;
-}
 
 .row-content {
     margin-top: 0px;
@@ -34,7 +23,8 @@
     border-radius: 0%;
 
 }
-.text-card{
+
+.text-card {
     
     margin-left: 20px;
     margin-right: 20px;
@@ -56,10 +46,10 @@
 
 .btn-sub{
     color: black;
-    background-color: #F1C40F;
-
-    
+    background-color: #F1C40F;    
 }
+
+
 
 .modal-login {
  color: #151313;

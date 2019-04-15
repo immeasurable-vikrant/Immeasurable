@@ -6,19 +6,19 @@ const items = [
     {
         src: "assets/images/conqueringthemind.jpg",
         altText: 'Slide 1',
-        caption : 'Slide 1'
+        caption : 'Immeasurable is one of the best website I have ever used, it helps me becoming a good human being'
     },
 
     {
-        src: "assets/images/conqueringthemind.jpg",
+        src: "assets/images/endofaddictions.jpg",
         altText: 'Slide 2',
         caption : 'Slide 2'
     },
 
     {
-        src: "assets/images/conqueringthemind.jpg",
-        altText: 'Slide 2',
-        caption : 'Slide 2'
+        src: "assets/images/unwaveringfocusandconcentration.jpg",
+        altText: 'Slide 3',
+        caption : 'Slide 3'
     },
 ];
 
@@ -27,13 +27,46 @@ class SlideImage extends Component {
     constructor(props) {
         super(props); 
      
-     
+     this.state = { activeIndex : 0 };
+      this.next = this.next.bind(this);
+      this.previous = this.previous.bind(this);
+      this.goToIndex = this.goToIndex.bind(this);
+      this.onExisting = this.onExisting.bind(this);
+      this.onExisted = this.onExisted.bind(this);
+    }
+
+    onExisting() {
+        this.animating = true;
+    }
+
+    onExisted() {
+        this.animating = false;
+    }
+
+    next() {
+        if(this.animating) return;
+        const nextIndex = this.state.activeIndex === items.length - 1 ? 0 : this.state.activeIndex + 1;
+        this.setState({ activeIndex: nextIndex});
+
+    }
+
+    previous() {
+        if(this.animating) return;
+        const nextIndex = this.state.activeIndex === 0 ? items.length - 1 : this.state.activeIndex - 1;
+        this.setState({ activeIndex: nextIndex});
+        
+    }
+
+    goToIndex(newIndex) {
+        if(this.animating) return;
+        this.setState({ activeIndex: newIndex});
+        
     }
 
 
     render() {
 
-        const { activeIndex } = this.props;
+        const { activeIndex } = this.state;
 
         const slides = items.map((item) => {
             return(
@@ -49,7 +82,7 @@ class SlideImage extends Component {
         });
 
         return(
-            <Carousel
+            <Carousel className =" col-12 col-md-10 "
                 activeIndex={activeIndex}
                 next={this.next}
                 previous={this.previous}

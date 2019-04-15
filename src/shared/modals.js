@@ -22,14 +22,14 @@ class ModalLogin extends React.Component {
     render() {
         return(
             <div >
-                <Button color="success" onClick= {this.toggle}>{this.state.buttonLabel} </Button>
+                <Button color="primary" onClick= {this.toggle}>Login </Button>
                     <Modal  isOpen = {this.state.modals} toggle={this.toggle} className= {this.state.className}>
                         <ModalHeader toggle={this.toggle} >Modal title </ModalHeader>
                             <ModalBody>
                                 Lorem ipsum dolor sit amet cristiano 
                             </ModalBody>
                             <ModalFooter>
-                                <Button color="primary" onClick={this.toggle} > do something</Button>{' '}
+                                <Button color="primary" onClick={this.toggle} > Submit</Button>
                                 <Button color="secondary" onClick={this.toggle}>Cancel</Button>
                             </ModalFooter>
                     </Modal>

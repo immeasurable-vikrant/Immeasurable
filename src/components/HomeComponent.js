@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardImgOverlay,CardBody, CardSubtitle,CardTitle, Button } from 'reactstrap';
+import SlideImage from '../shared/slideimage';
 
 class Home extends Component {
    
@@ -110,6 +111,10 @@ class Home extends Component {
           <h3 className="text-center">Browse our top courses</h3>
           <div className="row">
           {cours1}
+      
+          </div>
+          <div className="row row-content row-slide ">
+          <SlideImage />
           </div>
           </div>
             

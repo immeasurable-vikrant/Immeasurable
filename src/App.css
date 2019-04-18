@@ -49,7 +49,9 @@
     background-color: #F1C40F;    
 }
 
-
+.col-coursera {
+    height: 80px;
+}
 
 .modal-login {
  color: #151313;

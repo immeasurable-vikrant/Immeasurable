@@ -57,7 +57,10 @@ export default class Learning extends React.Component {
                     </Row>
                 </TabPane>
             </TabContent>
+           
             </div>
+
+          
         );
     }
 }

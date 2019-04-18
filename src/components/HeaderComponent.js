@@ -50,6 +50,11 @@ class Header extends Component {
                                Coursera
                             </NavLink>
                         </NavItem>
+                        <NavItem>
+                            <NavLink className="nav-link"to="/onclickk">
+                              Onclickk
+                            </NavLink>
+                        </NavItem>
                         </Nav>
 
                         
@@ -60,7 +65,7 @@ class Header extends Component {
                     </div>
                    
                 </Navbar>
-                    <Jumbotron className="jumbotron">
+                    <Jumbotron className="jumbotron"    >
                     <div className="container">    
                         <div className="row row-header">
                             <div className="col-12 col-sm-10">

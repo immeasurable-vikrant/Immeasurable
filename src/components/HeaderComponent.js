@@ -55,6 +55,11 @@ class Header extends Component {
                               Onclickk
                             </NavLink>
                         </NavItem>
+                        <NavItem>
+                            <NavLink className="nav-link"to="/articles">
+                              Articles
+                            </NavLink>
+                        </NavItem>
                         </Nav>
 
                         

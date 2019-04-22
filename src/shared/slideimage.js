@@ -10,16 +10,10 @@ const items = [
     },
 
     {
-        src: "assets/images/endofaddictions.jpg",
+        src: "assets/images/conqueringthemind.jpg",
         altText: 'Slide 2',
-        caption : 'Slide 2'
-    },
-
-    {
-        src: "assets/images/unwaveringfocusandconcentration.jpg",
-        altText: 'Slide 3',
-        caption : 'Slide 3'
-    },
+        caption : 'Immeasurable is one of the best website I have ever used, it helps me becoming a good human being'
+    }
 ];
 
 

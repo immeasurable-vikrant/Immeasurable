@@ -4,15 +4,18 @@ import Home from './HomeComponent';
 import { COURSES } from '../shared/courses';
 import { COURSES1} from '../shared/courses1';
 import { COURSES2 } from '../shared/courses2';
-import { CARD1 } from '../shared/card1';
+import { ARTICLES } from '../shared/articles';
+
+
 
 import Coursera from './CourseraComponent';
 import Onclickk from './OnclickkComponent';
 import Learning from './LearningComponent';
+import Wisdom from './WisdomComponent';
 
 import Footer from './FooterComponent';
 import { Switch, Route, Redirect} from 'react-router-dom';
-import Articles from './ArticleComponent';
+import Blogs from './BlogComponent';
 
 
 
@@ -31,7 +34,9 @@ class Main extends Component {
       courses : COURSES,
       courses1 : COURSES1,
       courses2 : COURSES2,
-      card1 : CARD1  
+      articles : ARTICLES
+   
+     
      
     
        
@@ -55,7 +60,8 @@ class Main extends Component {
             <Route exact path="/learning" component= {() => <Learning  activeTab = {this.state.activeTab} />} />
             <Route exact path="/coursera" component= {() => <Coursera  card1 = {this.state.card1} />} />
             <Route exact path="/onclickk" component= {() => <Onclickk />} />
-            <Route exact path="/articles" component= {() => <Articles />} />
+            <Route exact path="/blogs" component= {() => <Blogs />} />
+            <Route exact path="/wisdom" component= {() => <Wisdom articles = {this.state.articles} />} />
             <Redirect to ="/home" />
           </Switch>
      <Footer />

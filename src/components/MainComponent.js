@@ -55,7 +55,8 @@ class Main extends Component {
      <Header />
           <Switch>
             <Route path="/home" component={() => <Home courses = {this.state.courses}
-                  courses1 = {this.state.courses1} />} 
+                  courses1 = {this.state.courses1} 
+                  slideImage ={this.state.slideImage}/>} 
                  />
             <Route exact path="/learning" component= {() => <Learning  activeTab = {this.state.activeTab} />} />
             <Route exact path="/coursera" component= {() => <Coursera  card1 = {this.state.card1} />} />

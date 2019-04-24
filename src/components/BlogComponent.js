@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardImg,CardBody, CardText,CardTitle } from 'reactstrap';
+import { Card,CardBody,CardImg,CardTitle, CardText,Button} from 'reactstrap';
 
 function Blogs(props) {
 
@@ -12,7 +12,7 @@ function Blogs(props) {
       heading:'Are You A Fan of Positive Thinking? Then Think Again',
       image: 'https://images.sadhguru.org/sites/default/files/media_files/Positivethinking.jpg', 
       caption: 
-      'Positive thinking is a popular concept nowadays, but is it the right way to conduct your life? Sadhguru looks at how you may want to ignore the negati...'
+      'Positive thinking is a popular concept nowadays, but is it the right way to conduct your life? Sadhguru looks at how you may want to ignore the negatiSadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.. Sadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.....Positive thinking is a popular concept nowadays, but is it the right way to conduct your life? Sadhguru looks at how you may want to ignore the negatiSadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.. Sadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.....Positive thinking is a popular concept nowadays, but is it the right way to conduct your life? Sadhguru looks at how you may want to ignore the negatiSadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.. Sadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.....Positive thinking is a popular concept nowadays, but is it the right way to conduct your life? Sadhguru looks at how you may want to ignore the negatiSadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.. Sadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.....Positive thinking is a popular concept nowadays, but is it the right way to conduct your life? Sadhguru looks at how you may want to ignore the negatiSadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.. Sadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.....Positive thinking is a popular concept nowadays, but is it the right way to conduct your life? Sadhguru looks at how you may want to ignore the negatiSadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.. Sadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.....Positive thinking is a popular concept nowadays, but is it the right way to conduct your life? Sadhguru looks at how you may want to ignore the negatiSadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.. Sadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.....Positive thinking is a popular concept nowadays, but is it the right way to conduct your life? Sadhguru looks at how you may want to ignore the negatiSadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.. Sadhguru explains a few simple ways to care for your system which can help you experience an increase in energy and a dramatic decrease.....'
      },
     
      {
@@ -109,23 +109,22 @@ function Blogs(props) {
 
 const blogList = blogs.map((blog) => {
     return (
-    <div className="col-12 col-md-12" >
+    <div className="col-md-10 gf">
         <h1 className="text-center">{blog.heading}</h1>
-            <big className="text-muted">{blog.caption}</big>
-                <img className ="col-12 col-md-8 " src ={blog.image} alt = {blog.heading} />
-                <p>{blog.caption}</p>
-                <button>More Blogs</button>
-
-                  
+            <i><big className="text-muted text-center gk">{blog.heading} and {blog.heading} plus {blog.heading} </big></i>
+            <img className="col-12 col-md-10" src ={blog.image} alt = {blog.heading} />
+                <p className="col-12 col-md-10">{blog.caption}</p>
+                <button className="center">More Blogs</button>     
+                       
     </div>
   );
 })
 return(
 <div className="container">
-    <div className="row">
+    <div className="row offset-1 center">
       
         {blogList}
-    
+       
     </div>
 </div>
 );

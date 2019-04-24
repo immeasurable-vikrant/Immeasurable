@@ -4,11 +4,21 @@ import Blogs from './BlogComponent';
 
 
 function Wisdom(props) {
+
+    function clickHandler() {
+        console.log('button clicked')
+        return(
+            <div>
+        
+            </div>
+          
+        );
+    }
     
     const articleList = props.articles.map((article) => {
           return (
           <div key={article.id} className="col-12 col-md-4 col-article" >
-            <Card >
+            <Card onClick={clickHandler}>
              <CardImg top width="100%" src={article.image} alt={article.name} />
                  <CardBody>
                     <CardTitle>{article.name}</CardTitle>

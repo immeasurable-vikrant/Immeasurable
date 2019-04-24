@@ -155,5 +155,14 @@ address{
     background-color: black;
 }
 
+.gf{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.gk{
+    padding:50px;
+}
     
 

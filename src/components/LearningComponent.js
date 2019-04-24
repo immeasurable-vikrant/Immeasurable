@@ -6,6 +6,7 @@ import AppBar from '@material-ui/core/AppBar';
 import Tabs from '@material-ui/core/Tabs';
 import Tab from '@material-ui/core/Tab';
 import Typography from '@material-ui/core/Typography';
+import {Jumbotron,Button} from 'reactstrap';
 
 function TabContainer({ children, dir }) {
   return (
@@ -44,7 +45,20 @@ class FullWidthTabs extends React.Component {
     const { classes, theme } = this.props;
 
     return (
-      <div className={classes.root}>
+
+      <div className="conatiner">
+        <Jumbotron className="jumbotron-learning"    >
+                     <div className="container">    
+                         <div className="row row-header">
+                             <div className="col-12 col-sm-10">
+                            <h1>Immeasurable</h1>
+                             <p><h3>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</h3></p>
+                                 <Button className="btn-sub">Subscribe Now</Button>
+                             </div>
+                         </div>
+                         </div>
+                     </Jumbotron>
+      <div className="row-learn">
         <AppBar position="static" color="default">
           <Tabs
             value={this.state.value}
@@ -74,6 +88,7 @@ When they set out to go into the forest, instead of wearing royal robes, they ap
 
 </TabContainer>
         </SwipeableViews>
+      </div>
       </div>
     );
   }

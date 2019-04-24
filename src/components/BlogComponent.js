@@ -111,7 +111,7 @@ const blogList = blogs.map((blog) => {
     return (
     <div className="col-12 col-md-12" >
         <h1 className="text-center">{blog.heading}</h1>
-            <small className="text-muted">{blog.caption}</small>
+            <big className="text-muted">{blog.caption}</big>
                 <img className ="col-12 col-md-8 " src ={blog.image} alt = {blog.heading} />
                 <p>{blog.caption}</p>
                 <button>More Blogs</button>

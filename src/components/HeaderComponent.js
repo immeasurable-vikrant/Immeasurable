@@ -30,7 +30,7 @@ class Header extends Component {
                    <div className="container">
                         <NavbarToggler onClick={this.toggleNav} />
                <NavbarBrand className="mr-auto" href="/">
-             Immeasurable <sup>©</sup>
+             Immeasurable <sup>&reg;</sup>
                   </NavbarBrand>
                   <Collapse isOpen={this.state.isNavOpen} navbar>
                     <Nav navbar>
@@ -45,16 +45,7 @@ class Header extends Component {
                                 The Learning
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link"to="/coursera">
-                               Coursera
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link"to="/onclickk">
-                              Onclickk
-                            </NavLink>
-                        </NavItem>
+                       
                         <NavItem>
                             <NavLink className="nav-link"to="/blogs">
                               Blogs
@@ -76,19 +67,7 @@ class Header extends Component {
                     </div>
                    
                 </Navbar>
-                    <Jumbotron className="jumbotron"    >
-                    <div className="container">    
-                        <div className="row row-header">
-                            <div className="col-12 col-sm-10">
-                           <h1>Immeasurable</h1>
-                            <p><h3>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</h3></p>
-                                <Button className="btn-sub">Subscribe Now</Button>
-                            </div>
-
-
-                        </div>
-                        </div>
-                    </Jumbotron>
+                    
             </React.Fragment>
         );
     }

@@ -1,11 +1,10 @@
-import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardImgOverlay,CardBody, CardSubtitle,CardTitle, Button } from 'reactstrap';
+import React, { Component}from 'react';
+import { Card, CardImg, CardText, CardImgOverlay,CardBody, CardSubtitle,CardTitle, Button,Jumbotron } from 'reactstrap';
 import SlideImage from '../shared/slideimage';
 
 class Home extends Component {
-   
-  render() {
-
+  render()
+  {  
     const home = this.props.courses.map((course) => {
       return( 
 
@@ -56,6 +55,17 @@ class Home extends Component {
     
     return(
       <div className="conatiner">
+       <Jumbotron className="jumbotron"    >
+                    <div className="container">    
+                        <div className="row row-header">
+                            <div className="col-12 col-sm-10">
+                           <h1>Immeasurable</h1>
+                            <p><h3>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</h3></p>
+                                <Button className="btn-sub">Subscribe Now</Button>
+                            </div>
+                        </div>
+                        </div>
+                    </Jumbotron>
         <div className="row row-content">
           <div className=" col-12 col-md-6">
            <div className="box text-center">

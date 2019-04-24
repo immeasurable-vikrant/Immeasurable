@@ -28,6 +28,17 @@
     border-radius: 0%;
 
 }
+.jumbotron-wisdom {
+    background-image: url('https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_468/overcome_fears_1200x627.jpg?quality=89&w=800');
+    background-size: cover;
+    color: antiquewhite;
+    border-radius: 0%;
+
+}
+
+.jumbotron-learning {
+    background-image: url('http://iopasolutions.com/wp-content/uploads/2015/11/AAEAAQAAAAAAAARlAAAAJDdkMWUwOThkLTkwZjItNGNhMC04NDMzLWU1ZjZhMTAxMTk5Mg.jpg');
+}
 
 .text-card {
     
@@ -145,3 +156,4 @@ address{
 }
 
     
+

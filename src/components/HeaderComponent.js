@@ -47,8 +47,6 @@ class Header extends Component {
                         </NavItem>
                         
                        
-                      
-
                         <NavItem>
                             <NavLink className="nav-link"to="/wisdom">
                            Widsom

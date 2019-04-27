@@ -70,13 +70,13 @@ class Home  extends React.Component {
     
     return(
       <div className="conatiner">
-       <Jumbotron className="jumbotron"    >
+       <Jumbotron className="jumbotron" >
                     <div className="container">    
                         <div className="row row-header">
                             <div className="col-12 col-sm-10">
                            <h1>Immeasurable</h1>
                             <p><h3>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</h3></p>
-                                <Button className="btn-sub">Subscribe Now</Button>
+                                <Button onClick ={this.setRoute} className="btn-sub">Subscribe Now</Button>
                             </div>
                         </div>
                         </div>
@@ -84,12 +84,12 @@ class Home  extends React.Component {
         <div className="row row-content">
           <div className=" col-12 col-md-6">
            <div className="box text-center">
-            <Card >
+            <Card onClick={this.setRoute}>
               <CardImg src="assets/images/conqueringthemind.jpg" />
                 <CardImgOverlay>
 		              <div className="box-content">
 		                <ul className="icon">
-		                  <li><a href="/"><i className="fa fa-play-circle"></i></a></li>
+		                  <li><i className="fa fa-play-circle"></i></li>
 		                </ul>
                     <CardText className="text-center">
 		                  Conquering the Mind 

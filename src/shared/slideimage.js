@@ -75,7 +75,9 @@ class SlideImage extends Component {
             );
         });
 
-        return(
+        return( 
+            <div className="container-fluid slide">
+            
             <Carousel className =" col-12 col-md-10 "
                 activeIndex={activeIndex}
                 next={this.next}
@@ -87,6 +89,7 @@ class SlideImage extends Component {
                     <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />         
 
                 </Carousel>
+                </div>
         );
     }
 

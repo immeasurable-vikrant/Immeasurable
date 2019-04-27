@@ -5,11 +5,14 @@ import { COURSES } from '../shared/courses';
 import { COURSES1} from '../shared/courses1';
 import { COURSES2 } from '../shared/courses2';
 import { ARTICLES } from '../shared/articles';
+import { DATAS } from '../shared/data';
 
 
 
+
+import Modules from './ModuleComponent';
 import Coursera from './CourseraComponent';
-import Onclickk from './OnclickkComponent';
+// import Onclickk from './OnclickkComponent';
 import Learning from './LearningComponent';
 import Wisdom from './WisdomComponent';
 
@@ -34,17 +37,13 @@ class Main extends Component {
       courses : COURSES,
       courses1 : COURSES1,
       courses2 : COURSES2,
-      articles : ARTICLES
-   
-     
-     
-    
-       
+      articles : ARTICLES,
+      datas : DATAS,
     }
-   
-    
   }
- 
+  
+
+
 
   
   render() {
@@ -56,15 +55,20 @@ class Main extends Component {
           <Switch>
             <Route path="/home" component={() => <Home courses = {this.state.courses}
                   courses1 = {this.state.courses1} 
-                  slideImage ={this.state.slideImage}/>} 
+                  slideImage ={this.state.slideImage}
+                 />} 
                  />
             <Route exact path="/learning" component= {() => <Learning  activeTab = {this.state.activeTab} />} />
             <Route exact path="/coursera" component= {() => <Coursera  card1 = {this.state.card1} />} />
-            <Route exact path="/onclickk" component= {() => <Onclickk />} />
+            {/* <Route exact path="/onclickk" component= {() => <Onclickk />} /> */}
             <Route exact path="/blogs" component= {() => <Blogs />} />
-            <Route exact path="/wisdom" component= {() => <Wisdom articles = {this.state.articles} />} />
+            <Route exact path="/wisdom" component= {() => <Wisdom articles = {this.state.articles}
+             redirect = {this.state.redirect} />} />
+             <Route exact path="/modules" component= {() => <Modules datas={this.state.datas}  />}  /> />
+            
             <Redirect to ="/home" />
           </Switch>
+
      <Footer />
       </div>
     );

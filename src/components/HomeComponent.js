@@ -1,8 +1,23 @@
 import React, { Component}from 'react';
 import { Card, CardImg, CardText, CardImgOverlay,CardBody, CardSubtitle,CardTitle, Button,Jumbotron } from 'reactstrap';
+import { Redirect } from 'react-router-dom'
 import SlideImage from '../shared/slideimage';
 
-class Home extends Component {
+class Home  extends React.Component {
+  state = {
+    redirect: false
+  }
+  setRoute = () => {
+    this.setState({
+      redirect: true
+    })
+  }
+  renderRoute = () => {
+    if (this.state.redirect) {
+      return <Redirect to='/modules' />
+    }
+  }
+
   render()
   {  
     const home = this.props.courses.map((course) => {
@@ -10,13 +25,13 @@ class Home extends Component {
 
         <div key ={course.id } className="col-12 col-md-6 ">
         <div className="box text-center">
-           <Card onClick= {()=> this.onCourseSelect(course)}>
+           <Card onClick={this.setRoute}>
                <CardImg src={course.image} alt={course.name}/>
                
                 <CardImgOverlay>
 		              <div className="box-content">
 		                <ul className="icon">
-		                  <li><a href="/"><i className="fa fa-play-circle"></i></a></li>
+		                  <li><i className="fa fa-play-circle"></i></li>
 		                </ul>  
                     <CardText>{course.name}</CardText>
 		              </div>  
@@ -33,12 +48,12 @@ class Home extends Component {
     const cours1 = this.props.courses1.map((course1) => {
       return(
         <div key ={course1.id } className="col-12 col-md-3 ">
-           <Card className=" box text-card">
+           <Card className=" box text-card" onClick={this.setRoute}  >
               <CardImg src={course1.image} alt={course1.name}/>
               <CardImgOverlay>
               <div className="box-content">
 		                <ul className="icon">
-		                  <li><a href="/"><i className="fa fa-play-circle"></i></a></li>
+		                  <li><i className="fa fa-play-circle"></i></li>
 		                </ul>  
 		              </div>  
                 </CardImgOverlay>
@@ -88,7 +103,7 @@ class Home extends Component {
              <div className=" col-12 col-md-6">
                <div className="row">
                 {home} 
-              
+                {this.renderRoute()}
                </div>
              </div>
           </div>  
@@ -124,8 +139,10 @@ class Home extends Component {
       
           </div>
           <div className="row row-content row-slide ">
-          <SlideImage />
+         
           </div>
+
+          <SlideImage />
           </div>
             
            

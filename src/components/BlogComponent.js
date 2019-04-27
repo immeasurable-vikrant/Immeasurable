@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card,CardBody,CardImg,CardTitle, CardText,Button} from 'reactstrap';
+import { ARTICLES } from '../shared/articles';
 
 function Blogs(props) {
 
@@ -108,8 +109,9 @@ function Blogs(props) {
     ]
 
 const blogList = blogs.map((blog) => {
+    
     return (
-    <div className="col-md-10 gf">
+    <div  className="col-md-10 gf">
         <h1 className="text-center">{blog.heading}</h1>
             <i><big className="text-muted text-center gk">{blog.heading} and {blog.heading} plus {blog.heading} </big></i>
             <img className="col-12 col-md-10" src ={blog.image} alt = {blog.heading} />

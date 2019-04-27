@@ -45,12 +45,13 @@ class Header extends Component {
                                 The Learning
                             </NavLink>
                         </NavItem>
-                       
                         <NavItem>
-                            <NavLink className="nav-link"to="/blogs">
-                              Blogs
+                            <NavLink className="nav-link"to="/modules">
+                                Modules
                             </NavLink>
                         </NavItem>
+                       
+                      
 
                         <NavItem>
                             <NavLink className="nav-link"to="/wisdom">

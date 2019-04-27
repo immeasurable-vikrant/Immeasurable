@@ -57,7 +57,11 @@ class Wisdom  extends React.Component {
                        </div>
                        </div>
                    </Jumbotron>
-          <div className="row">    
+          <div className="row">
+            <div className="col-12 col-md-10 offset-1">
+              <h2 className="text-center ideas"><b>"Ideas and Perspective you won't find anywhere else."</b></h2>
+            </div>
+            
               {articleList}
               {this.renderRedirect()}
         </div>

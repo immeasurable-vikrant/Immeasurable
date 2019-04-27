@@ -45,11 +45,7 @@ class Header extends Component {
                                 The Learning
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link"to="/modules">
-                                Modules
-                            </NavLink>
-                        </NavItem>
+                        
                        
                       
 

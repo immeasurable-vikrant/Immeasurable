@@ -1,6 +1,12 @@
 
 import React  from 'react';
-import { ListGroup, ListGroupItem,  Row, Col } from 'reactstrap';
+import { ListGroup, ListGroupItem,  Row, Col, Jumbotron } from 'reactstrap';
+import Card from '@material-ui/core/Card'
+import CardActionArea from '@material-ui/core/CardActionArea'
+import CardActions from '@material-ui/core/CardActions'
+import CardContent from '@material-ui/core/CardContent'
+import Typography from '@material-ui/core/Typography'
+import Button from '@material-ui/core/Button'
 import Module1 from './Module1Component';
 
 
@@ -79,8 +85,48 @@ import Module1 from './Module1Component';
    
 
 	  return(
+
       <div className="container">
         <div className="row">
+        <Jumbotron>
+
+<div className="container">
+  <div className="row row-header">
+    <div className="col-12 col-sm-6">
+      <h3>How to Improve Focus and Concentration: Learn to Focus Better</h3>
+        <h4> Focus & Concentration Strategies for personal Productivity : Brain Hacking Tips & A 21 Day Focus Success Challenge </h4>
+        <p>5.6 (46 ratings) 100 Students enrolled <br /> Created by David Mills, Michael Vallejo,  LCSW Last Updated 11/2019 <br /> English</p>
+    </div>
+  </div>
+</div>
+</Jumbotron>
+<br />
+                <div className="container">
+                <div className="col-12 col-sm-4 ">
+                <Card>
+                <CardActionArea>
+                
+                  <CardContent>
+                  <Typography gutterBottom variant="h5" component="h2">
+                   Course Description
+                  </Typography>
+                  <Typography component="p">
+                  This course includes 1.5 hours on-demand video, Full lifetime access, 
+                  Access on mobile and TV, Certificate of Completion.
+                   </Typography>
+                    </CardContent>
+                  </CardActionArea>
+                 <CardActions>
+                 <Button size="small" color="primary">
+                      Buy Now
+                    </Button>
+                  <Button size="small" color="primary">
+                   Add to cart
+                   </Button>
+                  </CardActions>
+                  </Card>
+                  </div>
+                  </div>
         <div className="col-12">
            
           {modules}

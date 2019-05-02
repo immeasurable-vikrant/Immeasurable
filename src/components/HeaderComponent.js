@@ -52,17 +52,30 @@ class Header extends Component {
                               Coursera
                             </NavLink>
                         </NavItem>
-                        
-                       
+                    
+                     
                         <NavItem>
                             <NavLink className="nav-link"to="/wisdom">
                            Widsom
                             </NavLink>
                         </NavItem>
-                        </Nav>
 
+                        <NavItem>
+                            <NavLink className="nav-link"to="/article">
+                              Article
+                            </NavLink>
+                        </NavItem>
                         
-                        
+                        <NavItem>
+                        <NavLink className="nav-link ml-auto"to="/cart">
+                             <button className="btn-primary">
+                                 <i className=" fa fa-cart-plus " />
+                                    My Cart
+                                 </button> 
+                            </NavLink>
+                            </NavItem>
+
+                        </Nav>
                             </Collapse>
                           
                             <ModalLogin />

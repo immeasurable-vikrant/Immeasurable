@@ -85,10 +85,9 @@ import Module1 from './Module1Component';
    
 
 	  return(
+<div className="jumbo">
 
-      <div className="container">
-        <div className="row">
-        <Jumbotron>
+      <Jumbotron >
 
 <div className="container">
   <div className="row row-header">
@@ -100,13 +99,18 @@ import Module1 from './Module1Component';
   </div>
 </div>
 </Jumbotron>
+
+
+      <div className="container">
+        <div className="row">
+        
 <br />
                 <div className="container">
-                <div className="col-12 col-sm-4 ">
-                <Card>
-                <CardActionArea>
+                  <div className="col-12 col-sm-4 ">
+                    <Card>
+                     <CardActionArea>
                 
-                  <CardContent>
+                      <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
                    Course Description
                   </Typography>
@@ -136,6 +140,7 @@ import Module1 from './Module1Component';
           <Module1 />
         </div>
 
+      </div>
       </div>
     );
   }

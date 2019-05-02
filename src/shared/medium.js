@@ -1,5 +1,6 @@
-export const BLOGS =
+export const MEDIUM =
     [
+       
         {
             id: 0,
             name: 'Are you Desperately Looking for a Soulmate?',
@@ -134,7 +135,5 @@ export const BLOGS =
             description: 'Sadhguru narrates a story that a Zen master told his disciples. Then the master asks, “What is wrong with this story?” The disciples missed the point, but can you find out?',
             
             }
-
-
- ];
+        ];
 

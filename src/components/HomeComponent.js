@@ -3,7 +3,7 @@ import { Card, CardImg, CardText, CardImgOverlay,CardBody, CardSubtitle,CardTitl
 import { Redirect } from 'react-router-dom'
 import SlideImage from '../shared/slideimage';
 
-class Home  extends React.Component {
+class Home  extends Component {
   state = {
     redirect: false
   }

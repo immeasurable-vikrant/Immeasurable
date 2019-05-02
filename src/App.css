@@ -20,9 +20,19 @@
 
 }
 
+.arjun {
+    margin-left: 195px;
+}
+.arjun1{
+    padding-bottom: 20px;
+}
+
+
+
+
 
 .jumbotron {
-    background-image: url("https://wallpapercave.com/wp/wp2752142.jpg");
+    background-image: url("https://images.unsplash.com/photo-1466853817435-05b43fe45b39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1378&q=80");
     background-size: cover;
     color: antiquewhite;
     border-radius: 0%;
@@ -37,7 +47,7 @@
 }
 
 .jumbotron-learning {
-    background-image: url('http://iopasolutions.com/wp-content/uploads/2015/11/AAEAAQAAAAAAAARlAAAAJDdkMWUwOThkLTkwZjItNGNhMC04NDMzLWU1ZjZhMTAxMTk5Mg.jpg');
+    background-image: url('https://cdn-images-1.medium.com/max/2600/1*qqUzr_C06yElbc1NfiqBpA.jpeg');
 }
 
 .text-card {

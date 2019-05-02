@@ -47,12 +47,7 @@ class Main extends Component {
     }
    
   }
-  onSelectedMedium(medium) {
-    this.setState({
-        selectedMedium: medium
-    })
-}
-  
+ 
  
 
 

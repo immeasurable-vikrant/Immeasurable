@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardBody, CardTitle, CardText,Button, Jumbotron  } from 'reactstrap';
+
 import Article from './ArticleComponent';
 
 class Wisdom extends Component {
@@ -17,6 +18,7 @@ class Wisdom extends Component {
             selectedMedium: medium
         })
     }
+
 
     render() {
 

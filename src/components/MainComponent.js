@@ -6,7 +6,9 @@ import { COURSES1} from '../shared/courses1';
 import { COURSES2 } from '../shared/courses2';
 import { ARTICLES } from '../shared/articles';
 import { DATAS } from '../shared/data';
+import { VIDEOLINKS } from '../shared/videolinks';
 
+import Login from './LoginComponent';
 import Article from './ArticleComponent';
 import Modules from './ModuleComponent';
 import Coursera from './CourseraComponent';
@@ -41,14 +43,19 @@ class Main extends Component {
       datas : DATAS,
       mediums : MEDIUM,
       blogs: BLOGS,
+      videolinks: VIDEOLINKS,
       selectedMedium : null,
+      collapse :false
       
 
     }
-   
+    this.toggle = this.toggle.bind(this); 
   }
  
- 
+  toggle() {
+    this.setState(state => ({ collapse: !state.collapse}));
+  }
+  
 
 
   
@@ -74,8 +81,11 @@ class Main extends Component {
             
             
             <Route exact path="/modules" component= {() => <Modules datas={this.state.datas}  />}  /> />
-            <Route exact path="/coursera" component= {() => <Coursera  />}  /> />
+            <Route exact path="/coursera" component= {() => <Coursera videolinks ={this.state.videolinks} />}  /> 
             
+
+            <Route exact path="/auth/login" component= {() => <Login/>}  /> 
+
             <Redirect to ="/home" />
           </Switch>
 

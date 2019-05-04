@@ -13,7 +13,7 @@ export const DATAS =
     {
         id: 1,
         name:'Requirements',
-        category:'An interest in learning how to focus better',
+        category:'An Interest in learning how to focus better',
         label:'An interest in improving individual life',
         price:'No specific materials are needed for this course ',
         description:'Taking notes if highly recommended',
@@ -35,8 +35,4 @@ export const DATAS =
         description:'Anyone interested in personal development',
     },
        
-   
-    
-    
-    
 ];

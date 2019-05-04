@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand,Nav, NavbarToggler, Collapse, NavItem, Jumbotron, Button} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
-import ModalLogin from '../shared/modals';
+import Login from './LoginComponent';
+import Logout from './LogoutComponent';
 
 class Header extends Component {
     constructor(props){
@@ -65,20 +66,24 @@ class Header extends Component {
                               Articles
                             </NavLink>
                         </NavItem>
-                        
+
+                        {/* oAuth Login Logout Passport */}
+
                         <NavItem>
-                        <NavLink className="nav-link ml-auto"to="/cart">
-                             <button className="btn-primary">
-                                 <i className=" fa fa-cart-plus " />
-                                    My Cart
-                                 </button> 
+                            <NavLink className="nav-link"to="/auth/logout">
+                              <Logout />
                             </NavLink>
-                            </NavItem>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink className="nav-link"to="/auth/login">
+                            Login
+                            </NavLink>
+                        </NavItem>
 
                         </Nav>
-                            </Collapse>
-                          
-                            <ModalLogin />
+                       
+                        </Collapse>
+                             
                     </div>
                    
                 </Navbar>

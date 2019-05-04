@@ -94,7 +94,7 @@ import Module1 from './Module1Component';
     <div className="col-12 col-sm-6">
       <h3>How to Improve Focus and Concentration: Learn to Focus Better</h3>
         <h4> Focus & Concentration Strategies for personal Productivity : Brain Hacking Tips & A 21 Day Focus Success Challenge </h4>
-        <p>5.6 (46 ratings) 100 Students enrolled <br /> Created by David Mills, Michael Vallejo,  LCSW Last Updated 11/2019 <br /> English</p>
+        <p>4.6 (46 ratings) 100 Students enrolled <br /> English</p>
     </div>
   </div>
 </div>
@@ -116,7 +116,7 @@ import Module1 from './Module1Component';
                   </Typography>
                   <Typography component="p">
                   This course includes 1.5 hours on-demand video, Full lifetime access, 
-                  Access on mobile and TV, Certificate of Completion.
+                  Access on mobile and TV, Daily Practices Scheduled.
                    </Typography>
                     </CardContent>
                   </CardActionArea>

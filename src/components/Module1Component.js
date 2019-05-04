@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem, Row, Col, Collapse, Button, CardBody, Card  } from 'reactstrap';
-import { Module } from 'module';
+// import { Module } from 'module';
 
 
 class Module1 extends Component {
@@ -225,62 +225,7 @@ toggle() {
               </Row>
             </ListGroup>
            
-            <ListGroupItem>
-            <Row>
-             <Col><p>21 Day Focus Challenge Introduction</p></Col>
-             <Col></Col>
-             <Col><a>01:33</a></Col>
-            </Row>
-            </ListGroupItem>
-            <ListGroupItem>
-            <Row>
-             <Col><p>Day 1 to 3</p></Col>
-             <Col></Col>
-             <Col><a>02:58</a></Col>
-            </Row>
-            </ListGroupItem>
-            <ListGroupItem>
-            <Row>
-             <Col><p>Day 4 to 6</p></Col>
-             <Col></Col>
-             <Col><a>03:43</a></Col>
-            </Row>
-            </ListGroupItem>
-            <ListGroupItem>
-            <Row>
-             <Col><p>Day 7 to 9</p></Col>
-             <Col></Col>
-             <Col><a>03:18</a></Col>
-            </Row>
-            </ListGroupItem>
-            <ListGroupItem>
-            <Row>
-             <Col><p>Day 10 to 12</p></Col>
-             <Col></Col>
-             <Col><a>03:09</a></Col>
-            </Row>
-            </ListGroupItem>
-            <ListGroupItem>
-            <Row>
-             <Col><p>Day 13 to 15</p></Col>
-             <Col></Col>
-             <Col><a>02:56</a></Col>
-            </Row>
-            </ListGroupItem>
-            <ListGroupItem>
-            <Row>
-             <Col><p>Day 16 to 18</p></Col>
-             <Col></Col>
-             <Col><a>03:38</a></Col>
-            </Row>
-            </ListGroupItem>
-            <ListGroupItem>
-            <Row>
-             <Col><p>Day 19 to 21</p></Col>
-             <Col></Col>
-             <Col><a>03:39</a></Col>
-            </Row>
-            </ListGroupItem>
+          
             </CardBody>
           </Card>
 

@@ -110,24 +110,21 @@ class Home  extends Component {
           <div className="row row-col m-4">
             <div className="col-12 col-md-3 text-center">
             <i className="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>
-             <h4>Expert Masters</h4>
-             <p>Learn from industry experts who are 
-               passionate about Teaching.
+             <h4>Unlimited Access</h4>
+             <p>Choose what you'd like to learn from our extensive subscription library.
               </p>
             </div>
 
             <div className="col-12 col-md-4 text-center">
             <i className="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>
              <h4>Expert Masters</h4>
-             <p>Learn from industry experts who are
-               passionate about Teaching.
-              </p>
+             <p>Switch between your computer, tablet, or mobile device. </p>
                 <Button className="btn-chacha" color="warning">Subscribe now</Button>
             </div>
 
             <div className="col-12 col-md-4 text-center ">
             <i className="fa fa-graduation-cap fa-lg " aria-hidden="true" ></i>
-             <h4>Expert Masters</h4>
+             <h4>Learn Anywhere</h4>
              <p>Learn from industry experts who are
                passionate about Teaching.
               </p>

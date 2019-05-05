@@ -45,16 +45,16 @@ class Main extends Component {
       blogs: BLOGS,
       videolinks: VIDEOLINKS,
       selectedMedium : null,
-      collapse :false
+     
       
 
     }
-    this.toggle = this.toggle.bind(this); 
+    // this.toggle = this.toggle.bind(this); 
   }
  
-  toggle() {
-    this.setState(state => ({ collapse: !state.collapse}));
-  }
+  // toggle() {
+  //   this.setState(state => ({ collapse: !state.collapse}));
+  // }
   
 
 
@@ -81,7 +81,7 @@ class Main extends Component {
             
             
             <Route exact path="/modules" component= {() => <Modules datas={this.state.datas}  />}  /> />
-            <Route exact path="/coursera" component= {() => <Coursera videolinks ={this.state.videolinks} />}  /> 
+            <Route exact path="/coursera" component= {() => <Coursera  />}  /> 
             
 
             <Route exact path="/auth/login" component= {() => <Login/>}  /> 

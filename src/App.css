@@ -26,7 +26,10 @@
 .arjun1{
     padding-bottom: 20px;
 }
-
+.text-300 {
+    font-size: 22px;
+    color: #191817;
+}
 
 .navBar {
     background-color: #191817  ;
@@ -219,4 +222,10 @@ address{
 .vb {
     margin-top: 30px;   
    width: 60px;
+}
+
+.image-module {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

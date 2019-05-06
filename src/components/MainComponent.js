@@ -45,9 +45,6 @@ class Main extends Component {
       blogs: BLOGS,
       videolinks: VIDEOLINKS,
       selectedMedium : null,
-     
-      
-
     }
     // this.toggle = this.toggle.bind(this); 
   }
@@ -60,7 +57,6 @@ class Main extends Component {
 
   
   render() {
-
     return (
       <div>
         
@@ -72,16 +68,14 @@ class Main extends Component {
                  />} 
                  />
             <Route exact path="/learning" component= {() => <Learning  activeTab = {this.state.activeTab} />} />
-            <Route exact path="/coursera" component= {() => <Coursera  />} />
 
             <Route exact path="/wisdom/" component= {() => <Wisdom mediums = {this.state.mediums} 
             medium = {this.state.selectedMedium } /> } />
-            <Route exact path="/article" component= {() => <Article  blogs ={this.state.blogs}
-            blogs={this.state.selectedMedium}/>} />
+            <Route exact path="/article" component= {() => <Article  blogs ={this.state.blogs}/>} />
             
             
             <Route exact path="/modules" component= {() => <Modules datas={this.state.datas}  />}  /> />
-            <Route exact path="/coursera" component= {() => <Coursera  />}  /> 
+            <Route exact path="/coursera" component= {() => <Coursera videolinks={this.state.videolinks} />}  /> 
             
 
             <Route exact path="/auth/login" component= {() => <Login/>}  /> 

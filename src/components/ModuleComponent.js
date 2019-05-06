@@ -108,7 +108,7 @@ import Module1 from './Module1Component';
               <CardImg src="https://quicksilver.scoopwhoop.com/unsafe/960x0/center/https://s4.scoopwhoop.com/anj/arjun/168969273.jpg" alt="Preview Video" />
               <CardImgOverlay>
               <div className="box-content">
-		                <img className="image-module" height="80px" width="80px" src="http://cdn.onlinewebfonts.com/svg/img_272152.png" ></img> 
+		                <img className="image-module" height="80px" width="80px" src="http://cdn.onlinewebfonts.com/svg/img_272152.png" alt="defaultimage"></img> 
 		              </div>  
                 </CardImgOverlay>
                   <CardBody>   

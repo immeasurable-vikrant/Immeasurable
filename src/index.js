@@ -1,8 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'font-awesome/css/font-awesome.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import '~video-react/dist/video-react.css'; // import css   
+import 'bootstrap/dist/css/bootstrap.min.css';  
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';

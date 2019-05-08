@@ -1,36 +1,68 @@
 export const VIDEOLINKS =  
-[
-    {
-    id: 0,
-    title:'An Introduction to Focus and Attention',
-    caption: "An Introduction : Nourishing",
-     video:  'https://www.youtube.com/watch?v=n7XIvEzP990&t=6s'
-    
-    },
-
-    {
-      id: 1,
-      title:'An Introduction to Attention',
-      caption: "An Introduction : Nourishing",
-       video:  'https://www.youtube.com/watch?v=n7XIvEzP990&t=6s'
-      
-      },
-
-      {
-        id: 2,
-        title:'An Introduction to Attention',
-        caption: "An Introduction : Nourishing",
-         video:  'https://www.youtube.com/watch?v=n7XIvEzP990&t=6s'
-        
-        },
-
+    [{
+        name: "CSE",
+        videos:
+        [
         {
-          id: 3,
-          title:'On Awareness',
-          caption: "An Introduction : Nourishing",
-           video:  'https://www.youtube.com/watch?v=n7XIvEzP990&t=6s'
+        
+        name:'Attention',
+        video:"https://www.youtube.com/watch?v=xF80HzqvAoA"
+        
+      
+        },
+        {
+        
+        name:'Focus',
+        video:"https://www.youtube.com/watch?v=4O2JK_94g3Y"
           
+
+      //   },
+      //   {
+       
+      //   name:'Concentration',
+      //   video:"https://www.youtube.com/watch?v=Hu4Yvq-g7_Y"
+       
+      // },
+      
+      // {
+        
+      //   name:'Awareness ',
+      //   video:"https://www.youtube.com/watch?v=R7cUvp3XnYs"
+      
         }
-   
-  ];
+      ]
+    },
+    {
+      name: "ECE",
+      videos:
+      [
+      // {
+      
+      // name:'Attention',
+      // video:"https://www.youtube.com/watch?v=xF80HzqvAoA"
+      
     
+      // },
+      // {
+      
+      // name:'Focus',
+      // video:"https://www.youtube.com/watch?v=4O2JK_94g3Y"
+        
+
+      // },
+      {
+     
+      name:'Concentration',
+      video:"https://www.youtube.com/watch?v=Hu4Yvq-g7_Y"
+     
+    },
+    
+    {
+      
+      name:'Awareness ',
+      video:"https://www.youtube.com/watch?v=R7cUvp3XnYs"
+    
+      }
+    ]
+  }
+    ];

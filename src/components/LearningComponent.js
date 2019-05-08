@@ -67,9 +67,9 @@ class FullWidthTabs extends React.Component {
             textColor="primary"
             variant="fullWidth"
           >
-            <Tab label="The Science " />
-            <Tab label="The Meditation" />
-            <Tab label="The Learning" />
+            <Tab label="Our Approach" />
+            <Tab label="The Benefits" />
+            <Tab label="Our Research" />
           </Tabs>
         </AppBar>
         <SwipeableViews
@@ -77,17 +77,44 @@ class FullWidthTabs extends React.Component {
           index={this.state.value}
           onChangeIndex={this.handleChangeIndex}
         >
-          <TabContainer dir={theme.direction}><h2>Scientific Rigor
+          
+          <TabContainer dir={theme.direction}>
+          <h2>Scientific Rigor</h2>
+            <p>At Immeasurable we see meditation as both a practice rooted in ancient history and a topic of modern science. This is why we are as equally committed to providing authentic expertise in meditation and also studying the science of meditation. Science has been an integral part of the Headspace business since day one. We recognize that the only way to know if we are achieving our goal of improving the health and happiness of the world is to measure it. That's where the research comes in.”</p>
+            <p>7-person, in-house science department led by Chief Science Officer Dr. Megan Jones Bell, who has +14 years of experience running National Institutes of Health (NIH) and European Research Council (ERC)-funded clinical trials on digital health interventions.</p> 
+            <p>Currently in-process on 65+ research studies to scientifically validate the Headspace approach to meditation. The majority of these studies are being conducted by external third-party researchers with no association with Headspace.</p>
+            <p>Studies are in partnership with 35+ of the most prestigious scientific research institutions and organizations such as Stanford and USC, run by leading mindfulness experts.</p>
+            <p>Immeasurable has 16 published studies in the leading mindfulness peer-reviewed journals showing the impact of Immeasurable on health outcomes such as stress, focus and compassion.</p>
+          </TabContainer>
 
-At Headspace we see meditation as both a practice rooted in ancient history and a topic of modern science. This is why we are as equally committed to providing authentic expertise in meditation and also studying the science of meditation. Science has been an integral part of the Headspace business since day one. We recognize that the only way to know if we are achieving our goal of improving the health and happiness of the world is to measure it. That's where the research comes in.”</h2>
+         <TabContainer dir={theme.direction}>
+                <h2>The Benefits of Meditation </h2> 
+                <p>There are thousands of studies that have shown mindfulness meditation can positively impact mental and physical health. Whether it’s by reducing stress, improving sleep, increasing focus, or improving relationships, research shows mindfulness works. While the research on mindfulness, especially digital mindfulness programs, is still growing, there is evidence to support the use of mindfulness training for many outcomes.</p>
+                <br/>
+                <p>There are over 2,000 meditation apps out there, but Headspace is one of the only ones committed to advancing the field of mindfulness meditation through clinically-validated research on our product. We are currently in progress on research studies with large national institutions that could be among the largest mindfulness meditation trials ever conducted. We are committed to ensuring Headspace can actually make an impact in our lives. <br /><br />
+               
 
-</TabContainer>
-          <TabContainer dir={theme.direction}>Sadhguru: After the game of dice, the Pandavas had to leave their kingdom. They lost not only their inheritance but also what they had earned and built – all in a matter of an hour or two – with a roll of dice, not in battle or otherwise, as it should have been. Now, they prepared to leave for the forest. In a sense the whole situation moved from civilized ways of handling life to the ways of the wild, where might is right. It was a transition from properly laid out rules and everyone talking about rules, to turning into the wild.
-When they set out to go into the forest, instead of wearing royal robes, they appropriately dressed in simple hermit’s clothes. As they walked out of Hastinapur, people gathered and wailed. A large number of people loved the Pandava brothers, particularly Yudhishthira, because he had earned the reputation of being the most evenhanded ruler that they had ever seen. So when the Pandavas and Draupadi left, a lot of people wanted to go with them to the forest. If you are going into the forest and a lot of people come with you, it is not of help, it is a lot of trouble. It took a lot of convincing to make people understand and get them to stay away. People walked behind them for miles. But they were turned away except for Dhaumya, their family priest and a little over a dozen other brahmins, to take care of the ritual part of their lives.</TabContainer>
-          <TabContainer dir={theme.direction}>They went into the Kamakhya Vana, a forest that was about a day’s travel away. By evening, they reached the forest and camped near a river. Now, these brahmins who had come with them set up their rituals and things to support the family. No one spoke to anyone. Everyone was distraught except Yudhishthira – he looked around the forest and started enjoying it. While the others were grief-stricken because they had lost everything, Yudhishthira looked at the green forest, the chirping birds – everything was so beautiful, far more beautiful than the palace. He started going around with a smile on his face. Looking at the smile upon his face, Bhima and particularly Draupadi got incensed. She was angry because of what had happened to her, because of losing the comfort, clothes, and conveniences they had in the palace. A woman is generally more dependent on those things than a man, because of the very way she is made. A house is a lot more important for the feminine than the masculine. Men would rather sleep under a tree.
-
-</TabContainer>
-        </SwipeableViews>
+                </p>
+        </TabContainer>
+                
+         <TabContainer dir={theme.direction}>
+                <h2>Research shows Immeasurable works</h2>       
+                <p> Published studies, external scientists, prestigious research organizations and our science team have shown Immeasurable can improve mental, emotional, and social health.
+                <div className="row">
+                  <div className="col-12 col-6">
+                  7-person, in-house science department led by Chief Science Officer Dr. Megan Jones Bell, who has +14 years of experience running National Institutes of Health (NIH) and European Research Council (ERC)-funded clinical trials on digital health interventions.
+                  </div>
+                </div>
+                <br />
+                If you are a researcher interested in assessing the impact of Immeasurable, learn more about our current research priorities and to share a proposal for consideration. <br /><br />
+                Immeasurable decreases stress. An internal study that was published in the top mindfulness journal found that only 10 days of Immeasurable reduced stress by 14%.<br /><br />
+                Immeasurable can make people kinder to others. Separate studies conducted by Northeastern University found that 3 weeks of Immeasurable increased compassion by 23% and reduced aggression by 57%. In addition, an internal study found 10 days of Immeasurable reduced irritability by 27%. And Kinder to themselves. A study with health professionals found that only 10 days of Immeasurable improved self-compassion. <br /><br />
+                Immeasurable improves focus. We spend almost half of our waking hours lost in thought and distracted. Research published in a journal focused on cognitive enhancement showed that Immeasurable improved focus by 14% and significantly decreased mind-wandering. <br /><br />
+                Immeasurable can make people happier overall. We put the “website” in happy. A study with students found that just 10 days of Immeasurable increased positivity and well-being. <br /><br />
+                And Happier at work. Studies conducted with different populations of employees have found Immeasurable can reduce stress and job strain and improve job satisfaction.
+                </p>
+                </TabContainer>
+                        </SwipeableViews>
       </div>
       </div>
     );

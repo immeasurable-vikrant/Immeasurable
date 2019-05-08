@@ -4,9 +4,9 @@ import Home from './HomeComponent';
 import { COURSES } from '../shared/courses';
 import { COURSES1} from '../shared/courses1';
 import { COURSES2 } from '../shared/courses2';
-import { ARTICLES } from '../shared/articles';
 import { DATAS } from '../shared/data';
 import { VIDEOLINKS } from '../shared/videolinks';
+
 
 import Login from './LoginComponent';
 import Article from './ArticleComponent';
@@ -39,7 +39,6 @@ class Main extends Component {
       courses : COURSES,
       courses1 : COURSES1,
       courses2 : COURSES2,
-      articles : ARTICLES,
       datas : DATAS,
       mediums : MEDIUM,
       blogs: BLOGS,
@@ -75,8 +74,7 @@ class Main extends Component {
             
             
             <Route exact path="/modules" component= {() => <Modules datas={this.state.datas}  />}  /> />
-            <Route exact path="/coursera" component= {() => <Coursera videolinks={this.state.videolinks} />}  /> 
-            
+            <Route exact path="/coursera" component= {() => <Coursera videolinks={this.state.videolinks} />}  />
 
             <Route exact path="/auth/login" component= {() => <Login/>}  /> 
 

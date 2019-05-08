@@ -75,7 +75,7 @@ class Home  extends Component {
                         <div className="row row-header">
                             <div className="col-12 col-sm-10">
                            <h1>Immeasurable</h1>
-                            <p><h3>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</h3></p>
+                           <h3> <p>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</p></h3>
                                 <Button onClick ={this.setRoute} className="btn-sub">Subscribe Now</Button>
                             </div>
                         </div>

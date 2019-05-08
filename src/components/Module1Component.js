@@ -55,7 +55,7 @@ toggle() {
               <Row>
              <Col><p><a href="https://www.youtube.com/watch?v=LfdJS_8M8bY">The Importance of Being Focused</a></p></Col>
              <Col><p><a href="https://www.youtube.com/watch?v=LfdJS_8M8bY">preview</a></p></Col>
-             <Col><a>6:35</a></Col>
+             <Col><h4>6:35</h4></Col>
             </Row>
               
             </ListGroupItem>
@@ -208,7 +208,7 @@ toggle() {
             <Row>
              <Col><p>Qi Gong is Wonderful for your Focus</p></Col>
              <Col></Col>
-             <Col><a>04:14</a></Col>
+             <Col>04:14</Col>
             </Row>
             </ListGroupItem>
             </CardBody>

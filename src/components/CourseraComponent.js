@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from './NavBarComponent';
 import { ListGroup, ListGroupItem ,Collapse} from 'reactstrap';
 import ReactPlayer from 'react-player';
-import ReactPlayerVidz from './ReactPlayerVidzComponent';
+import ReactPlayerVideo from './ReactPlayerVideoComponent';
 
 
 
@@ -44,24 +44,7 @@ onSelectedVideo(currentVideos) {
 }
 
 render() {
-  // const current = this.state.videolink.videos.map((currentVideos) => {
-  //   return (
-  //     <ListGroup  key={currentVideos.id}>
-  //     <ListGroupItem onClick={()=>{
-  //       this.setState(
-  //         {
-  //           selectedVideo: currentVideos.video
-  //         }
-  //       );
-  //     }}>{currentVideos.caption} </ListGroupItem>
-  //     </ListGroup>
-  //   );
-
-  // })
-
   
-
-
     const listgroup = this.props.videolinks.map((videolink) => {
       return( 
 
@@ -70,10 +53,9 @@ render() {
           <ListGroupItem  onClick={this.toggle} ><b>{videolink.name}</b></ListGroupItem>
           
             <Collapse isOpen={this.state.collapse}>
-            {/* {current} */}
             {videolink.videos.map((select) => {
                 return (
-                  <ReactPlayerVidz onSelectedVideo={this.onSelectedVideo} select={select} />
+                  <ReactPlayerVideo onSelectedVideo={this.onSelectedVideo} select={select} />
                 );
 
               })}

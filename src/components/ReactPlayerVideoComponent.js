@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ListGroup, ListGroupItem ,Collapse} from 'reactstrap';
 
-class ReactPlayerVidz extends Component {
+class ReactPlayerVideo extends Component {
     constructor(props) {
         super(props);
     }
@@ -9,11 +9,11 @@ class ReactPlayerVidz extends Component {
         return(
         <ListGroup  key={this.props.select.name}>
             <ListGroupItem onClick={()=>{ this.props.onSelectedVideo(this.props.select)
-                }}>{this.props.select.name}
+                }}><b className="text-muted">{this.props.select.name}</b>
             </ListGroupItem>
         </ListGroup>
         
         );
     }
 }
-export default ReactPlayerVidz;
+export default ReactPlayerVideo;

@@ -1,7 +1,8 @@
 export const VIDEOLINKS1 =  
     [
       {
-        name: "Conquering the Mind- Art of Mind Management",
+        name: "Conquering the Mind ",
+        reading:"Reading: Introduction",
         videos:
         [
         {
@@ -21,6 +22,7 @@ export const VIDEOLINKS1 =
     },
     {
       name: "Art of Mind Management Part:2",
+      reading:"Reading: The Mind is Everything, What you think you Become! ",
       videos:
       [
       {
@@ -55,6 +57,7 @@ export const VIDEOLINKS1 =
 
   {
     name: "Art of Mind Management Part:3",
+    reading:"Reading: 'The Death of the Mind' ",
     videos:
     [
     {

@@ -2,6 +2,7 @@ export const VIDEOLINKS =
     [
       {
         name: "Attention",
+        reading:"Reading: Attention is the Key",
         videos:
         [
         {
@@ -30,6 +31,7 @@ export const VIDEOLINKS =
     },
     {
       name: "Attention is like a Fire",
+      reading:"Reading: In the flame of attention everything resolves",
       videos:
       [
       {
@@ -64,6 +66,7 @@ export const VIDEOLINKS =
 
   {
     name: "Flame of Awareness",
+    reading:"Reading: Awareness is Light",
     videos:
     [
     {

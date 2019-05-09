@@ -39,7 +39,7 @@ class Home  extends Component {
 
         <div key ={course.id } className="col-12 col-md-6 ">
         <div className="box text-center">
-           <Card onClick={this.setRoute}>
+           <Card onClick={this.setRoute} className="pointer">
                <CardImg src={course.image} alt={course.name}/>
                
                 <CardImgOverlay>
@@ -62,7 +62,7 @@ class Home  extends Component {
     const cours1 = this.props.courses1.map((course1) => {
       return(
         <div key ={course1.id } className="col-12 col-md-3 ">
-           <Card className=" box text-card" onClick={this.setRoute}  >
+           <Card className=" box text-card pointer" onClick={this.setRoute}  >
               <CardImg src={course1.image} alt={course1.name}/>
               <CardImgOverlay>
               <div className="box-content">
@@ -98,7 +98,7 @@ class Home  extends Component {
         <div className="row row-content">
           <div className=" col-12 col-md-6">
            <div className="box text-center">
-            <Card onClick={this.setRoute1}>
+            <Card  className="pointer" onClick={this.setRoute1}>
               <CardImg src="assets/images/conqueringthemind.jpg" />
                 <CardImgOverlay>
 		              <div className="box-content">

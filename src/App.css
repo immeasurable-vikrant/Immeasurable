@@ -74,10 +74,28 @@
     margin-right: 20px;
     padding: 0px;
     color: #151313;
-    font-size: 100%;
-    
+    font-size: 100%;   
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.row-1 {  
+    background:  #F8F9F9  ;
+}
+.row-2 {
+    background: burlywood;
+}
+.row-3 {
+    background: #FDFEFE;
+}
+.row-4 {
+    background: #FDFEFE;
+}
+.row-5 {
+    background: #FDFEFE;
+}
 
 .row-context {
     background-image: url("https://images.pexels.com/photos/1379115/pexels-photo-1379115.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");

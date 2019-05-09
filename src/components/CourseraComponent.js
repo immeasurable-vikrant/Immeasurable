@@ -50,7 +50,8 @@ render() {
       return( 
 
         <div >
-        <ListGroup key ={videolink.name}>
+        <ListGroup key ={videolink.name} className="pointer">
+        <ListGroupItem color="success" tag="a" href="#">{videolink.reading}</ListGroupItem>
           <ListGroupItem  onClick={this.toggle} ><b>{videolink.name}</b></ListGroupItem>
           
             <Collapse isOpen={this.state.collapse}>

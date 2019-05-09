@@ -28,7 +28,7 @@ toggle() {
 }
 
 onSelectedVideo(currentVideos) {
-  console.log("fvghnjmk,.");
+  console.log("palying");
   // debugger;
   this.setState({
       selectedVideo: currentVideos.video
@@ -39,11 +39,9 @@ render() {
   
     const listgroup = this.props.videolinks1.map((videolink1) => {
       return( 
-
-        <div >
-        <ListGroup key ={videolink1.name}>
+        <ListGroup key ={videolink1.name} className="pointer">
+        <ListGroupItem color="success" tag="a" href="#">{videolink1.reading}</ListGroupItem>
           <ListGroupItem  onClick={this.toggle} ><b>{videolink1.name}</b></ListGroupItem>
-          
             <Collapse isOpen={this.state.collapse}>
             {videolink1.videos.map((select) => {
                 return (
@@ -53,7 +51,6 @@ render() {
               })}
             </Collapse>
         </ListGroup>
-        </div>
     
         
       );
@@ -65,18 +62,14 @@ return (
     <div>
       <NavBar />
       <div className="container">
-      
-        <div className="row">
+       <div className="row">
           <div className="col-12 col-md-3 coursera">
             {listgroup}
+            
           </div>
           <div className="row-player">
             <div className="col-12 col-md-8">
-            {/* <ReactPlayer currentVideos={this.state.onSelectedVideo} playing 
-              controls
-              width ="720px" height="576px"/> */}
-
-              <ReactPlayer url={this.state.selectedVideo} playing 
+              <ReactPlayer url={this.state.selectedVideo} playing
               controls
               width ="720px" height="576px"/>
             </div>

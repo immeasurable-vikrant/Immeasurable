@@ -6,7 +6,6 @@ import CardActionArea from '@material-ui/core/CardActionArea'
 import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
 import Typography from '@material-ui/core/Typography'
-// import Button from '@material-ui/core/Button'
 import Module1 from './Module1Component';
 
 
@@ -67,7 +66,7 @@ import Module1 from './Module1Component';
      
   
  
-   const Modules = (props) => {
+   const Module1a = (props) => {
     const modules = props.datas.map((data) => {
       return (
         
@@ -155,7 +154,7 @@ import Module1 from './Module1Component';
                     </CardContent>
                   </CardActionArea>
                  <CardActions>
-                 <Button size="small" color="primary">
+                 <Button size="small" color="primary" >
                       Buy Now
                     </Button>
                   <Button size="small" color="primary">
@@ -181,4 +180,4 @@ import Module1 from './Module1Component';
   
  
 
-export default Modules;
+export default Module1a;

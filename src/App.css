@@ -64,6 +64,10 @@
     background-image: url('https://images.unsplash.com/photo-1474418397713-7ede21d49118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=736&q=80');
 }
 
+.jumbo-1 {
+    background-image: url('https://media.gadventures.com/media-server/image_library/Nepal-Himalaya-Mountains-Annapurna-Pokhara-Prayer-Flags-IS-027332084-Lg-RGB.jpg');
+}
+
 .text-card {
     
     margin-left: 20px;

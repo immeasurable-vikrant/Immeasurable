@@ -5,16 +5,30 @@ import SlideImage from '../shared/slideimage';
 
 class Home  extends Component {
   state = {
-    redirect: false
+    redirect: false,
+    redirect1:false
   }
   setRoute = () => {
     this.setState({
       redirect: true
     })
   }
+
   renderRoute = () => {
     if (this.state.redirect) {
-      return <Redirect to='/modules' />
+      return <Redirect to='/module1a' />
+    }
+  }
+
+  setRoute1 = () => {
+    this.setState({
+      redirect1: true
+    })
+  }
+
+  renderRoute1 = () => {
+    if (this.state.redirect1) {
+      return <Redirect to='/module2b' />
     }
   }
 
@@ -84,7 +98,7 @@ class Home  extends Component {
         <div className="row row-content">
           <div className=" col-12 col-md-6">
            <div className="box text-center">
-            <Card onClick={this.setRoute}>
+            <Card onClick={this.setRoute1}>
               <CardImg src="assets/images/conqueringthemind.jpg" />
                 <CardImgOverlay>
 		              <div className="box-content">
@@ -104,6 +118,7 @@ class Home  extends Component {
                <div className="row">
                 {home} 
                 {this.renderRoute()}
+                {this.renderRoute1()}
                </div>
              </div>
           </div>  

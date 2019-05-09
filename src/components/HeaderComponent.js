@@ -53,6 +53,12 @@ class Header extends Component {
                               Coursera
                             </NavLink>
                         </NavItem>
+                        
+                        <NavItem>
+                        <NavLink className="nav-link"to="/coursera1">
+                              Coursera1
+                            </NavLink>
+                        </NavItem>
                     
                      
                         <NavItem>

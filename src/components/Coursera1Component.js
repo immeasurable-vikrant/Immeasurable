@@ -6,8 +6,7 @@ import ReactPlayerVideo from './ReactPlayerVideoComponent';
 
 
 
-export default class Coursera extends React.Component {
-
+export default class Coursera1 extends React.Component {
 
  
   constructor(props) {
@@ -15,14 +14,6 @@ export default class Coursera extends React.Component {
     this.state = {
       collapse :false,
       selectedVideo: null,
-    //   currentVideos: [
-    //     {
-    //     id: 0,
-    //     caption: "Part 1",
-    //     video: "https://www.youtube.com/watch?v=R7cUvp3XnYs"
-    //     },
-       
-    // ]
      
     }
 
@@ -46,15 +37,15 @@ onSelectedVideo(currentVideos) {
 
 render() {
   
-    const listgroup = this.props.videolinks.map((videolink) => {
+    const listgroup = this.props.videolinks1.map((videolink1) => {
       return( 
 
         <div >
-        <ListGroup key ={videolink.name}>
-          <ListGroupItem  onClick={this.toggle} ><b>{videolink.name}</b></ListGroupItem>
+        <ListGroup key ={videolink1.name}>
+          <ListGroupItem  onClick={this.toggle} ><b>{videolink1.name}</b></ListGroupItem>
           
             <Collapse isOpen={this.state.collapse}>
-            {videolink.videos.map((select) => {
+            {videolink1.videos.map((select) => {
                 return (
                   <ReactPlayerVideo onSelectedVideo={this.onSelectedVideo} select={select} />
                 );

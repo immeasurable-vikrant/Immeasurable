@@ -6,22 +6,22 @@ export const VIDEOLINKS =
         [
         {
         
-        name:'The Art of Focus',
-        video:"https://www.youtube.com/watch?v=xF80HzqvAoA"
+        name:'What can one do to nourish attention?',
+        video:"https://www.youtube.com/watch?v=n7XIvEzP990&t=7s"
         
       
         },
         {
         
-        name:'Unwavering Focus',
-        video:"https://www.youtube.com/watch?v=4O2JK_94g3Y"
+        name:'Attention has nothing to do with thought ?',
+        video:"https://www.youtube.com/watch?v=d0YesAXipf4"
           
 
         },
         {
        
-        name:'How to get your brain to Focus ?',
-        video:"https://www.youtube.com/watch?v=Hu4Yvq-g7_Y"
+        name:'Constant Attention',
+        video:"https://www.youtube.com/watch?v=Q_vDCo_aOvo"
        
       }
       
@@ -29,34 +29,34 @@ export const VIDEOLINKS =
       ]
     },
     {
-      name: "Awareness",
+      name: "Attention is like a Fire",
       videos:
       [
       {
       
-      name:'On Awareness and the Observer',
-      video:"https://www.youtube.com/watch?v=65uft-8u4gU"
+      name:'Attention is like a Fire- Part:1',
+      video:"https://www.youtube.com/watch?v=qLEgXAlMs1I"
       
     
       },
       {
       
-      name:'On Awareness and the Awakening of Intelligence',
-      video:"https://www.youtube.com/watch?v=4O2JK_94g3Y"
+      name:'Attention is like a Fire- Part:2',
+      video:"https://www.youtube.com/watch?v=5-iK-s5tUG0"
         
 
       },
       {
      
-      name:'Choiceless Awareness',
-      video:"https://www.youtube.com/watch?v=pRaJQ9Swbb8"
+      name:'Attention is like a Fire- Part:3',
+      video:"https://www.youtube.com/watch?v=EHrOLGnaWSo"
      
     },
     
     {
       
-      name:'Self-Awareness ',
-      video:"https://www.youtube.com/watch?v=CYuQ4hHTaTU"
+      name:'Attention is like a Fire- Part:4 ',
+      video:"https://www.youtube.com/watch?v=mg_vF6JcUko"
     
       }
     ]
@@ -68,22 +68,22 @@ export const VIDEOLINKS =
     [
     {
     
-    name:'The Art of Focus',
-    video:"https://www.youtube.com/watch?v=xF80HzqvAoA"
+    name:'The Awakening of Intelligence',
+    video:"https://www.youtube.com/watch?v=3w2_TaDME28"
     
   
     },
     {
     
-    name:'Unwavering Focus',
-    video:"https://www.youtube.com/watch?v=4O2JK_94g3Y"
+    name:'Awareness beyond time',
+    video:"https://www.youtube.com/watch?v=Cl50GB1SQMQ"
       
 
     },
     {
    
-    name:'How to get your brain to Focus ?',
-    video:"https://www.youtube.com/watch?v=Hu4Yvq-g7_Y"
+    name:'Choiceless Self-Awareness',
+    video:"https://www.youtube.com/watch?v=CYuQ4hHTaTU"
    
   }
   

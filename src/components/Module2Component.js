@@ -3,7 +3,7 @@ import { ListGroup, ListGroupItem, Row, Col, Collapse, Button, CardBody, Card  }
 import { Redirect } from 'react-router-dom';
 
 
-class Module1 extends Component {
+class Module2 extends Component {
 
   state = {
     redirect: false
@@ -15,7 +15,7 @@ class Module1 extends Component {
   }
   renderRoute = () => {
     if (this.state.redirect) {
-      return <Redirect to='/coursera' />
+      return <Redirect to='/coursera1' />
     }
   }
 
@@ -261,4 +261,4 @@ toggle() {
   }
 }
 
-export default Module1;  
+export default Module2;  

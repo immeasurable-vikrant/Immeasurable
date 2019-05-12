@@ -1,5 +1,5 @@
 import React, { Component}from 'react';
-import { Card, CardImg, CardText, CardImgOverlay,CardBody, CardSubtitle,CardTitle, Button,Jumbotron } from 'reactstrap';
+import { Card, CardImg, CardText, CardImgOverlay,CardBody,CardTitle, Button,Jumbotron } from 'reactstrap';
 import { Redirect } from 'react-router-dom'
 import SlideImage from '../shared/slideimage';
 

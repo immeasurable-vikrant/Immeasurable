@@ -5,7 +5,6 @@ export const MEDIUM =
             id: 0,
             name: 'Are you Desperately Looking for a Soulmate?',
             image: 'https://images.sadhguru.org/sites/default/files/media_files/sadhguru-isha-wisdom-article-image-illustration-hands-two-people-tied-with-sutra-are-you-desparately-looking-for-a-soulmate.jpg',
-            description: 'Sadhguru looks at the idea that you can find a soulmate who will be a perfect companion, and speaks about the soul, love and why people come together.',
            
         },
         {

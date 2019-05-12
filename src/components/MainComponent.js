@@ -67,7 +67,7 @@ class Main extends Component {
 
             <Route exact path="/wisdom/" component= {() => <Wisdom mediums = {this.state.mediums} 
             medium = {this.state.selectedMedium } /> } />
-            <Route exact path="/article" component= {() => <Article  blogs={this.state.blogs}/>} />
+            <Route exact path="/article" component= {(props) => <Article {...props} />} />
             
             
             <Route exact path="/module1a" component= {() => <Module1a datas={this.state.datas}  />}  /> />

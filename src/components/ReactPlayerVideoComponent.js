@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { ListGroup, ListGroupItem ,Collapse} from 'reactstrap';
+import { ListGroup, ListGroupItem } from 'reactstrap';
 
 class ReactPlayerVideo extends Component {
     constructor(props) {

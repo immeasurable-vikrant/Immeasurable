@@ -13,6 +13,18 @@ class Wisdom extends Component {
         }
     }
 
+
+ // setRoute = () => {
+    //     this.setState({
+    //       redirect: true
+    //     })
+    //   }
+    //   renderRoute = () => {
+    //     if (this.state.redirect) {
+    //       return <Redirect to='/article' />
+    //     }
+    //   }
+
     onSelectedDish(medium) {
         this.setState({
             selectedMedium: medium
@@ -71,3 +83,6 @@ class Wisdom extends Component {
 }
 
 export default Wisdom; 
+
+
+

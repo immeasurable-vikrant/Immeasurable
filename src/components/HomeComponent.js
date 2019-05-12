@@ -62,20 +62,23 @@ class Home  extends Component {
     const cours1 = this.props.courses1.map((course1) => {
       return(
         <div key ={course1.id } className="col-12 col-md-3 ">
-           <Card className=" box text-card pointer" onClick={this.setRoute}  >
-              <CardImg src={course1.image} alt={course1.name}/>
-              <CardImgOverlay>
+           <Card className=" text-card pointer" onClick={this.setRoute}  >
+              <CardImg   src={course1.image} alt={course1.name}/>
+              <CardImgOverlay className="box">
               <div className="box-content">
 		                <ul className="icon">
-		                  <li><i className="fa fa-play-circle"></i></li>
+		                  <Button outline color="secondary" size="lg" block  ><li><i className="fa fa-play-circle"></i></li><br/>Preview Course</Button>
 		                </ul>  
 		              </div>  
-                </CardImgOverlay>
+                  </CardImgOverlay>
                   <CardBody>   
-                    <CardTitle>{course1.name}</CardTitle>    
-                    <CardSubtitle>{course1.name}</CardSubtitle> 
+                    <CardTitle><h4>{course1.name}</h4></CardTitle>    
+                    <CardText>{course1.description }</CardText>
               </CardBody>
             
+              
+                
+                
            </Card> 
            </div>
       );
@@ -90,7 +93,7 @@ class Home  extends Component {
                             <div className="col-12 col-sm-10">
                            <h1>Immeasurable</h1>
                            <h3> <p>As there is a technology to create external wellbeing, there is a whole dimension of science and technology to create inner wellbeing.</p></h3>
-                                <Button onClick ={this.setRoute} className="btn-sub">Subscribe Now</Button>
+                                <Button  className="btn-sub">Subscribe Now</Button>
                             </div>
                         </div>
                         </div>
@@ -103,7 +106,7 @@ class Home  extends Component {
                 <CardImgOverlay>
 		              <div className="box-content">
 		                <ul className="icon">
-		                  <li><i className="fa fa-play-circle"></i></li>
+		                  <li><i className="fa fa-play-circle fa-lg"></i></li>
 		                </ul>
                     <CardText className="text-center">
 		                  Conquering the Mind 
@@ -122,7 +125,7 @@ class Home  extends Component {
                </div>
              </div>
           </div>  
-          <div className="row row-col m-4">
+          <div className="row row-col m-3 ">
             <div className="col-12 col-md-3 text-center">
             <i className="fa fa-graduation-cap fa-lg" aria-hidden="true"></i>
              <h4>Unlimited Access</h4>
@@ -138,7 +141,7 @@ class Home  extends Component {
             </div>
 
             <div className="col-12 col-md-4 text-center ">
-            <i className="fa fa-graduation-cap fa-lg " aria-hidden="true" ></i>
+            <i className="fa fa-mobile-phone fa-lg " aria-hidden="true" ></i>
              <h4>Learn Anywhere</h4>
              <p>Learn from industry experts who are
                passionate about Teaching.

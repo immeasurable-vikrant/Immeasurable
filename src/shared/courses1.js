@@ -21,7 +21,8 @@ export const COURSES1 =  [
       id: 3,
       name:'Think & Grow Rich',
       image: 'assets/images/swades4.jpg',
-     },
+      description: 'Choose what you would like to learn from our extensive subscription library'
+      },
      {
       id: 4,
       name:'Health & Well Being ',
@@ -31,7 +32,7 @@ export const COURSES1 =  [
    {
       id: 5,
       name:'Overcoming Comfort Zone',
-      image: 'assets/images/swades5.jpg',
+      image: 'assets/images/comfort.jpg',
       description: 'Choose what you would like to learn from our extensive subscription library'
     },
     {
@@ -44,5 +45,6 @@ export const COURSES1 =  [
       id: 7,
       name:'Boost Your Confidence',
       image: 'assets/images/swades7.jpg',
+      description: 'Choose what you would like to learn from our extensive subscription library'
      }
   ]

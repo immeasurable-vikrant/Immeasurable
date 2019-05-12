@@ -1,13 +1,9 @@
 
 import React  from 'react';
-import { Button, ListGroup, ListGroupItem,  Row, Col, Jumbotron, CardImg,CardBody,CardText,CardTitle,CardImgOverlay } from 'reactstrap';
+import { Button, ListGroup, ListGroupItem,  Row, Col, Jumbotron, CardImg, CardBody, CardText, CardTitle, CardImgOverlay} from 'reactstrap';
 import Card from '@material-ui/core/Card'
-import CardActionArea from '@material-ui/core/CardActionArea'
-import CardActions from '@material-ui/core/CardActions'
-import CardContent from '@material-ui/core/CardContent'
-import Typography from '@material-ui/core/Typography'
-// import Button from '@material-ui/core/Button'
-import Module1 from './Module1Component';
+
+import Module2 from './Module2Component';
 
 
 
@@ -36,14 +32,7 @@ import Module1 from './Module1Component';
           </ListGroupItem>
         </ListGroup>
        <br />
-       
-
-       </div>
-        
-       
-       
-       
-        
+       </div>   
     );
   }
   function Comments(data){
@@ -52,12 +41,6 @@ import Module1 from './Module1Component';
       
         <h3>{data.name}</h3>
         <p>{data.category}</p>
-
-      
-      
-      
-        
-      
       </div>
     )
 
@@ -91,79 +74,64 @@ import Module1 from './Module1Component';
 	  return(
 <div className="jumbo">
 
-                <Jumbotron className="jumbo-1">
+        <Jumbotron className="goku">
           <div className="container">
             <div className="row row-header">
-            <div className="col-12 col-sm-6">
-                <h3>How to Improve Focus and Concentration: Learn to Focus Better</h3>
-                  <h4> Focus & Concentration Strategies for personal Productivity : Brain Hacking Tips & A 21 Day Focus Success Challenge </h4>
+            <div className="col-12 col-md-8">
+                <h3>How to Conquer the Mind ?</h3>
+                  <h4> Gain control over your mind. Make better choices. Be more disciplined. Become independent of other peoples' opinions.</h4>
                   <p>4.6 (46 ratings) 100 Students enrolled <br /> English</p>
               </div>
 
-              <div className=" col-12 col-md-4">
-                    <div>
-                    {/* className="box text-center" */}
-                    <Card  > 
-                    {/* className=" box text-card"  */}
-              <CardImg src="https://quicksilver.scoopwhoop.com/unsafe/960x0/center/https://s4.scoopwhoop.com/anj/arjun/168969273.jpg" alt="Preview Video" />
+        <div className=" col-12 col-md-4">
+          <div className="cardib">
+            <Card> 
+              <CardImg src="assets/images/conqueringthemind.jpg" alt="Preview Video" />
+              
               <CardImgOverlay>
               <div className="box-content">
-		                <img className="image-module" height="80px" width="80px" src="http://cdn.onlinewebfonts.com/svg/img_272152.png" alt="defaultimage"></img> 
+		              <img className="image-module" height="80px" width="80px" src="http://cdn.onlinewebfonts.com/svg/img_272152.png" alt="defaultimage"></img> 
 		              </div>  
                 </CardImgOverlay>
                   <CardBody>   
-                    <CardTitle ><b className="text-300">Unwavering Attention</b></CardTitle>    
-                     <CardText><b className="text-300">₹300</b>&nbsp;&nbsp;&nbsp;&nbsp;<strike>₹700</strike> 40% off</CardText>
-                     <Button color="primary"> Add to Cart</Button> <br/>
-                     <Button color="danger"> Buy Now</Button>
-                     
-                     <ul className="text-300">This course includes</ul>
-                     <li className="text-300">
-                     <i class="fa fa-play" aria-hidden="true"></i><ul>24 hours on-demand video</ul>
-                     <i class="fa fa-newspaper-o" aria-hidden="true"></i><ul>19 articles</ul>
-                     <i className="fa fa-phone fa-sm"></i><ul>Full lifetime access</ul>
-                     <i class="fa fa-mobile" aria-hidden="true"></i><ul>Access on mobile and TV</ul>
-                     </li>
+                    <CardTitle ><b className="text-300">Conquering the Mind</b></CardTitle>    
+                     <CardText className="text-300"><b className="text-300">₹500</b> &nbsp;&nbsp; <strike >₹1000</strike> 50% off</CardText>
+                     <Button color="danger" size="lg" block>Start My Free Trial</Button>
+                     <Button  outline color="secondary" size="lg" block>Buy Now</Button>
+
+                      <ul className="text-300">
+                     <li><b>This Course Includes :</b></li>
+                     <li>24 hours on-demand video</li>
+                     <li>19 articles</li>
+                     <li>Full lifetime access</li>
+                     <li>Access on mobile and TV</li>
+                     </ul>
                   </CardBody>
             
            </Card> 
-                      </div>
-                    </div>
+            </div>
+            </div>
             </div>
           </div>
 
           </Jumbotron>
 
 
-      <div className="container">
+      <div className="container o">
         <div className="row">
+        <div className="col-12 col-md-5">
+        <Card className="mb-4">
+          <CardTitle className="text-center"><b>Conquering the Mind</b></CardTitle>
+          <CardText> “The mind is its own place, and in itself can make a heaven of hell, a hell of heaven..” </CardText>
+          <Button  outline color="secondary" size="lg" block>Buy Now</Button>
+        </Card>
+       
+    
+      </div>
         
-<br />
-                <div className="container">
-                  <div className="col-12 col-sm-4 ">
-                    <Card>
-                     <CardActionArea>
+          <br />
+          <div className="container">
                 
-                      <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                   Course Description
-                  </Typography>
-                  <Typography component="p">
-                  This course includes 1.5 hours on-demand video, Full lifetime access, 
-                  Access on mobile and TV, Daily Practices Scheduled.
-                   </Typography>
-                    </CardContent>
-                  </CardActionArea>
-                 <CardActions>
-                 <Button size="small" color="primary" >
-                      Buy Now
-                    </Button>
-                  <Button size="small" color="primary">
-                   Add to cart
-                   </Button>
-                  </CardActions>
-                  </Card>
-                  </div>
                   </div>
         <div className="col-12">
            
@@ -171,7 +139,10 @@ import Module1 from './Module1Component';
           </div>
         </div>
         <div className="row">
-          <Module1 />
+        <div className="col-12 col-md-10">
+          <Module2 />
+          
+          </div>
         </div>
 
       </div>

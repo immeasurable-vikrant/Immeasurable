@@ -7,6 +7,9 @@
 
 }
 
+.mb-4 {
+    padding: 20px;
+}
 
 .footer {
     background-color:#151313;
@@ -27,12 +30,17 @@
     padding-bottom: 20px;
 }
 .text-300 {
-    font-size: 22px;
+    font-size: 20px;
     color: #191817;
+    list-style: none;
 }
 
+.cardib{
+    height: 600px;
+} 
+
 .navBar {
-    background-color: #191817  ;
+    background-color: #191817;
     height: 32px;
   
 }
@@ -45,15 +53,19 @@
     margin-left:20px;
 }
 
+.jumbotron-goku{
+    background-image: url("https://images.wallpaperscraft.com/image/stars_sky_space_car_113629_1280x720.jpg");
+}
+
 .jumbotron {
-    background-image: url("https://images.unsplash.com/photo-1466853817435-05b43fe45b39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1378&q=80");
+    background-image: url("https://images.wallpaperscraft.com/image/stars_sky_space_car_113629_1280x720.jpg");
     background-size: cover;
     color: antiquewhite;
     border-radius: 0%;
 
 }
 .jumbotron-wisdom {
-    background-image: url('https://pi.tedcdn.com/r/talkstar-assets.s3.amazonaws.com/production/playlists/playlist_468/overcome_fears_1200x627.jpg?quality=89&w=800');
+    background-image: url('https://images.wallpaperscraft.com/image/galaxy_stars_light_nebula_61697_1280x720.jpg');
     background-size: cover;
     color: antiquewhite;
     border-radius: 0%;
@@ -61,9 +73,8 @@
 }
 
 .jumbotron-learning {
-    background-image: url('https://images.unsplash.com/photo-1474418397713-7ede21d49118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=736&q=80');
+    background-image: url('https://images.wallpaperscraft.com/image/exoplanet_atmosphere_clouds_stars_moon_mist_mountains_rocks_101205_1280x720.jpg');
 }
-
 .jumbo-1 {
     background-image: url('https://media.gadventures.com/media-server/image_library/Nepal-Himalaya-Mountains-Annapurna-Pokhara-Prayer-Flags-IS-027332084-Lg-RGB.jpg');
 }
@@ -77,24 +88,118 @@
     font-size: 100%;   
 }
 
+.heart {
+    padding: 20px;
+}
+.heart1 {
+    padding: 100px;
+    font-family: sans-serif;
+}
+
+.sport {
+    padding: 50px;
+}
+
+.sport1{
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+
 .pointer {
     cursor: pointer;
 }
 
-.row-1 {  
-    background:  #F8F9F9  ;
+.list-group:hover {
+    background-color:#D7DBDD;
+  }
+  
+.list-item:hover {
+    background-color: #ECF0F1   ;
+  }
+
+.row-1  {  
+    background:  #F0F3F4   ;
+    padding: 50px;
+}
+
+.pad {
+    margin-top: 25px;
+    margin-left: 220px;
+}
+
+.ballad {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.research {
+    margin-top: 20px;
+}
+
+.img-doc {
+ height: 350px;
+ margin-top: 40px;
+
+    }
+
+    .img-doc9{
+        margin-left: 30px;
+    }
+
+    .img-doc1 {
+   height: 350px;
+ margin-left: 180px;
+           }
+
+.img-doctor {
+   height: 200px;
+   padding: 30px;
+   
+   
+    }
+    .imgbrain{
+        height: 350px;
+        padding: 25px;
+        
+         }
+
+         .ml{
+             margin-left: 140px;
+         }
+.mt {
+    margin-left: 25px;
+}
+
+.bruce {
+    margin-left: 120px;
+    
+}
+.img-doc8{
+    height: 350px;
+}
+
+.wayne {
+margin-left: 50px
+}
+
+.head5 {
+    margin-left: 60px;
 }
 .row-2 {
-    background: burlywood;
+    background: bisque;
+   padding: 60px;
 }
 .row-3 {
     background: #FDFEFE;
 }
 .row-4 {
-    background: #FDFEFE;
+    background: bisque;
 }
-.row-5 {
-    background: #FDFEFE;
+
+
+.tab-container {
+    background: #151313;
 }
 
 .row-context {
@@ -145,6 +250,12 @@
 
     background-color: rgba(33, 47, 61, .8);
  }
+ 
+ /* .fa{
+     color: #F1C40F;
+     background-color: #F1C40F;
+    
+ } */
 
 
 .box .icon {
@@ -249,4 +360,24 @@ address{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.naruto{
+    height:400px;
+}
+
+.goku {
+    height: 400px;
+    background-image: url('https://images5.alphacoders.com/785/thumb-1920-785583.png');
+}
+.o{
+    margin-top:100px;
+}
+
+.yu{
+    margin-bottom:50px;
+}
+
+.vb-5 {
+    margin-left: 70px;
 }

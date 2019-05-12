@@ -1,13 +1,13 @@
 export const COURSES =  [
     {
       id: 0,
-      name:'Conquering the Mind',
-      image: 'assets/images/conqueringthemind.jpg', 
+      name:'Health & Well Being',
+      image: 'assets/images/health.jpg', 
       description: 'Choose what you would like to learn from our extensive subscription library'
      },
    {
       id: 1,
-      name:'Unwavering Focus and Concentration',
+      name:'Unwavering Attention',
       image: 'assets/images/unwaveringfocusandconcentration.jpg',
       description: 'Choose what you would like to learn from our extensive subscription library'
     },

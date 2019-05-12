@@ -1,20 +1,25 @@
 import React, { Component } from 'react';
-import { ListGroup, ListGroupItem, Row, Col, Collapse, Button, CardBody, Card  } from 'reactstrap';
+import { ListGroup, ListGroupItem, Row, Col, Collapse, Button,Card,CardBody  } from 'reactstrap';
 import { Redirect } from 'react-router-dom';
+
+import CardActionArea from '@material-ui/core/CardActionArea'
+import CardActions from '@material-ui/core/CardActions'
+import CardContent from '@material-ui/core/CardContent'
+import Typography from '@material-ui/core/Typography'
 
 
 class Module2 extends Component {
 
   state = {
-    redirect: false
+    redirect1: false
   }
   setRoute = () => {
     this.setState({
-      redirect: true
+      redirect1: true
     })
   }
   renderRoute = () => {
-    if (this.state.redirect) {
+    if (this.state.redirect1) {
       return <Redirect to='/coursera1' />
     }
   }
@@ -42,13 +47,15 @@ toggle() {
     
   
      return(
-      
-        <div className="container">
 
-        <Button color="primary" onClick={this.setRoute}>Buy Nowraaaaaaaand</Button>
-        {this.renderRoute()}
-        <Card>
-          <CardBody>
+      
+        
+        <div >
+    
+        
+
+         <Card>
+         <CardBody>
         <Row>
 
         <Col><h3>Course Content</h3></Col>
@@ -252,13 +259,54 @@ toggle() {
         </Card>
         
         <br />
-        
-        </div>
-          
-        
+ 
+<div className="col-12 col-md-10 vb-5">
+<Card>
+ <CardActionArea>
+
+  <CardContent className="mb-3">
+<Typography gutterBottom variant="h5" component="h2">
+<h2 className="text-center"><b>Your Free Month</b></h2>
+<br/>
+</Typography>
+<Typography component="p">
+<div className="row">
+<div className="col-12 col-md-6">
+<li><h6>You won't be charged until after your free month.</h6></li>
+<li><h6>>We'll remind you three days before your trial ends.</h6></li>
+<li><h6>No commitments, cancel at any time.</h6></li>
+</div>
+<div className="col-12 col-md-6">
+
+<li><h6>The Best Quality Content.</h6></li>
+<li><h6>Weekly Practices.</h6></li>
+<li><h6>Methods and Tools</h6></li>
+
+</div>
+</div>
+</Typography>
+</CardContent>
+</CardActionArea>
+
+<CardActions >
+<Button  color="success" size="lg" block  onClick={this.setRoute}>
+   {this.renderRoute()}
+  Start Free Trial
+</Button>
+</CardActions>
+</Card>
+</div> 
+</div>
+ 
+     
     
     );
   }
 }
 
 export default Module2;  
+
+
+
+
+

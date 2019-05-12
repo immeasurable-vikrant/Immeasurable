@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand,Nav, NavbarToggler, Collapse, NavItem} from 'reactstrap';
+import { Navbar, NavbarBrand,Nav, NavbarToggler, Collapse, NavItem, Button} from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 
 import Logout from './LogoutComponent';
@@ -46,20 +46,6 @@ class Header extends Component {
                                 The Learning
                             </NavLink>
                         </NavItem>
-
-
-                        <NavItem>
-                            <NavLink className="nav-link"to="/coursera">
-                              Coursera
-                            </NavLink>
-                        </NavItem>
-                        
-                        <NavItem>
-                        <NavLink className="nav-link"to="/coursera1">
-                              Coursera1
-                            </NavLink>
-                        </NavItem>
-                    
                      
                         <NavItem>
                             <NavLink className="nav-link"to="/wisdom">
@@ -67,30 +53,23 @@ class Header extends Component {
                             </NavLink>
                         </NavItem>
 
-                        <NavItem>
+                        {/* <NavItem>
                             <NavLink className="nav-link"to="/articles">
                               Articles
                             </NavLink>
-                        </NavItem>
-
-                        {/* oAuth Login Logout Passport */}
-
-                        <NavItem>
-                            <NavLink className="nav-link"to="/auth/logout">
-                              <Logout />
-                            </NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink className="nav-link"to="/auth/login">
-                            Login
-                            </NavLink>
-                        </NavItem>
+                        </NavItem> */}
 
                         </Nav>
                        
+                       
                         </Collapse>
-                             
+                        
                     </div>
+                    <NavItem>
+                            <NavLink className="nav-link"to="/auth/login">
+                           <Button> Login</Button>
+                            </NavLink>
+                        </NavItem>
                    
                 </Navbar>
                     

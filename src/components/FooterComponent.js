@@ -38,7 +38,7 @@ function Footer(props) {
             </div>
             <div className="row justify-content-center">             
                 <div className="col-auto">
-                    <p>© Copyright 2018 Immeasurable</p>
+                    <p>© Copyright 2019 Immeasurable</p>
                 </div>
             </div>
         </div>

@@ -15,19 +15,15 @@ export default class Coursera extends React.Component {
     this.state = {
       collapse :false,
       selectedVideo: null,
-    //   currentVideos: [
-    //     {
-    //     id: 0,
-    //     caption: "Part 1",
-    //     video: "https://www.youtube.com/watch?v=R7cUvp3XnYs"
-    //     },
-       
-    // ]
+      // selectedReading: null
+     
      
     }
 
     this.toggle = this.toggle.bind(this); 
     this.onSelectedVideo= this.onSelectedVideo.bind(this);
+    // this.onSelectedReading= this.onSelectedReading.bind(this);
+  
   }
   
 
@@ -44,6 +40,13 @@ onSelectedVideo(currentVideos) {
   })
 }
 
+// onSelectedReading(currentVideos) {
+//   this.setState({
+//     selectedReading: currentVideos.reading1
+//   })
+// }
+
+
 render() {
   
     const listgroup = this.props.videolinks.map((videolink) => {
@@ -51,16 +54,27 @@ render() {
 
         <div >
         <ListGroup key ={videolink.name} className="pointer">
-        <ListGroupItem color="success" tag="a" href="#">{videolink.reading}</ListGroupItem>
-          <ListGroupItem  onClick={this.toggle} ><b>{videolink.name}</b></ListGroupItem>
-          
+        <ListGroupItem><b className="text-muted"><i>{videolink.reading}</i></b></ListGroupItem>
+          <ListGroupItem  onClick={this.toggle} className="list-group"><b>{videolink.caption}</b></ListGroupItem>
+    
             <Collapse isOpen={this.state.collapse}>
             {videolink.videos.map((select) => {
-                return (
+                return (   
                   <ReactPlayerVideo onSelectedVideo={this.onSelectedVideo} select={select} />
-                );
+
+                  );
 
               })}
+              {/* {videolink.reading1.map((select) => {
+                return (   
+                  <div className="">
+                  <ReactPlayerVideo onSelectedReading={this.onSelectedReading} select={select} />
+                  </div>
+                  
+                  );
+
+              })}
+              */}
             </Collapse>
         </ListGroup>
         </div>
@@ -76,21 +90,24 @@ return (
       <NavBar />
       <div className="container">
       
+      <h1 className="text-center mt-4">"Unwavering Attention"</h1>
+      <div className="row ml-6">
+         
+          </div>
         <div className="row">
           <div className="col-12 col-md-3 coursera">
             {listgroup}
           </div>
-          <div className="row-player">
+        <div className="row-player">
             <div className="col-12 col-md-8">
-            {/* <ReactPlayer currentVideos={this.state.onSelectedVideo} playing 
-              controls
-              width ="720px" height="576px"/> */}
-
-              <ReactPlayer url={this.state.selectedVideo} playing 
+            <ReactPlayer url={this.state.selectedVideo} playing 
               controls
               width ="720px" height="576px"/>
             </div>
-          </div>
+            {/* <div className="col-12 col-md-8">
+            (<PDFViewer document={this.state.selectedReading } />);
+            </div> */}
+        </div>
         </div>
       </div>
     </div>

@@ -40,8 +40,8 @@ render() {
     const listgroup = this.props.videolinks1.map((videolink1) => {
       return( 
         <ListGroup key ={videolink1.name} className="pointer">
-        <ListGroupItem color="success" tag="a" href="#">{videolink1.reading}</ListGroupItem>
-          <ListGroupItem  onClick={this.toggle} ><b>{videolink1.name}</b></ListGroupItem>
+        <ListGroupItem ><b className="text-muted">{videolink1.reading}</b></ListGroupItem>
+          <ListGroupItem  onClick={this.toggle} ><b>{videolink1.caption}</b></ListGroupItem>
             <Collapse isOpen={this.state.collapse}>
             {videolink1.videos.map((select) => {
                 return (
@@ -62,6 +62,7 @@ return (
     <div>
       <NavBar />
       <div className="container">
+      <h1 className="text-center mt-3">"Conquering the Mind"</h1>
        <div className="row">
           <div className="col-12 col-md-3 coursera">
             {listgroup}

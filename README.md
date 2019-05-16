@@ -1,5 +1,4 @@
-## Immeasurable is an e-learning platform for Self Transformation. Immeasurable provides tools and methods in the form of Courses and Articles. 
-### Immeasurable provides Solutions to your day to day life problems like Focus and Attention, Stress, Procrastination, Relationships, Health and Laziness etc. Immeasurable provides tools and methods in the form of Courses and Articles. The Courses provides you intense 3-4 Weeks Video lectures and reading material. The Course guides you to the Meditation and various Mindfulness Practices. The Courses helps you in Understanding Yourself in a better way. 
+## Immeasurable is an e-learning platform for Self Transformation. Immeasurable provides tools and methods in the form of Courses and Articles.The Course guides you to the Meditation and various Mindfulness Practices. The Courses helps you in Understanding Yourself in a better way. 
 
 ![screencapture-localhost-3000-home-2019-05-13-20_44_33](https://user-images.githubusercontent.com/46659335/57612406-6adc2c80-7592-11e9-94d1-b6c8b8feaa77.png)
 

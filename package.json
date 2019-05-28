@@ -2,6 +2,10 @@
   "name": "confusion",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=10.0.0 <11.0.0",
+    "npm": ">=6.0.0 <7.0.0 "
+  }
   "dependencies": {
     "jquery": "^1.9.1",
     "mgr-pdf-viewer-react": "^1.0.3",

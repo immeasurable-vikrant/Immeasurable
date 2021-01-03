@@ -3,19 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-   "node": "10.15.3",
+    "node": "10.15.3",
     "npm": "6.4.1"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
     "jquery": "^1.9.1",
+    "material-ui": "^0.20.2",
     "mgr-pdf-viewer-react": "^1.0.3",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-motion": "^0.5.0",
     "react-player": "^1.11.0",
-    "react-router-dom": "^4.2.2",
+    "react-popper": "^2.2.4",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.4",
     "react-swipeable-views": "^0.13.1",
+    "reactstrap": "^8.8.1",
     "redux": "^4.0.1",
     "video-react": "^0.13.6",
     "webpack": "^4.28.3"
